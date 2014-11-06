@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CollegeDBModelStoreContainer" CdmEntityContainer="CollegeDBContext">
+    <EntitySetMapping Name="EntityPhoneInfoes">
+      <EntityTypeMapping TypeName="CollegeDBModel.EntityPhoneInfo">
+        <MappingFragment StoreEntitySet="EntityPhoneInfo">
+          <ScalarProperty Name="EntityId" ColumnName="EntityId" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EntityWebsiteInfoes">
+      <EntityTypeMapping TypeName="CollegeDBModel.EntityWebsiteInfo">
+        <MappingFragment StoreEntitySet="EntityWebsiteInfo">
+          <ScalarProperty Name="EntityId" ColumnName="EntityId" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LocationTypes">
+      <EntityTypeMapping TypeName="CollegeDBModel.LocationType">
+        <MappingFragment StoreEntitySet="LocationTypes">
+          <ScalarProperty Name="LocationType1" ColumnName="LocationType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NearbyPlaces">
+      <EntityTypeMapping TypeName="CollegeDBModel.NearbyPlace">
+        <MappingFragment StoreEntitySet="NearbyPlaces">
+          <ScalarProperty Name="EntityId" ColumnName="EntityId" />
+          <ScalarProperty Name="LocationType" ColumnName="LocationType" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="Distance" ColumnName="Distance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CollegeInfoes">
+      <EntityTypeMapping TypeName="CollegeDBModel.CollegeInfo">
+        <MappingFragment StoreEntitySet="CollegeInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Principal_Name" ColumnName="Principal Name" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="District" ColumnName="District" />
+          <ScalarProperty Name="BankAccount" ColumnName="BankAccount" />
+          <ScalarProperty Name="BankName" ColumnName="BankName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DepartmentInfoes">
+      <EntityTypeMapping TypeName="CollegeDBModel.DepartmentInfo">
+        <MappingFragment StoreEntitySet="DepartmentInfo">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="CollegeId" ColumnName="CollegeId" />
+          <ScalarProperty Name="BranchCode" ColumnName="BranchCode" />
+          <ScalarProperty Name="ApprovedIntake" ColumnName="ApprovedIntake" />
+          <ScalarProperty Name="YearofStartingCourse" ColumnName="YearofStartingCourse" />
+          <ScalarProperty Name="NBAAccredited" ColumnName="NBAAccredited" />
+          <ScalarProperty Name="AccreditionValidUpto" ColumnName="AccreditionValidUpto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

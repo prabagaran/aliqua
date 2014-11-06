@@ -1,0 +1,592 @@
+﻿College ID	Branch Code	Branch Name	Approved Intake	Year of starting course	NBA Accredited	Accredition Valid upto
+1202	100	Computer Science	100	2000	Yes	2020
+1202	101	ECE	60	2004	No	2015
+0001	AI	Agriculture and Irrigation Engg.	40	2006	No	--
+0001	BY	Bio Medical Engineering	60	2008	No	--
+0001	CE	Civil Engineering	60	1859	No	--
+0001	XC	Civil Engineering 	60	2010	No	--
+0001	CS	Computer science and engineering	60	1982	No	--
+0001	CM	Computer science and engineering	120	2006	No	--
+0001	EE	Electrical and Electronics Engineering	60	1930	No	--
+0001	EM	Electroncis and Communication Engg.	120	2006	No	--
+0001	EC	Electroncis and Communication Engg.	60	1946	No	--
+0001	GI	Geo-Informatics	40	1993	No	--
+0001	IE	Industrial Engineering	40	1981	No	--
+0001	IM	Information Technology	120	2006	No	--
+0001	MN	Manufacturing Engineering	40	1980	No	--
+0001	MA	Material Science and Engineering	40	2006	No	--
+0001	ME	Mechanical Engineering	120	1895	No	--
+0001	XM	Mechanical Engineering	60	2010	No	--
+0001	MI	Mining Engineering	25	1987	No	--
+0001	PT	Printing Technology	40	1983	No	--
+0002	AP	Apparel Technology	30	2007	No	--
+0002	CR	Ceramic Technolgy	30	1996	No	--
+0002	CH	Chemical Engineering	60	1944	No	--
+0002	CL	Chemical Engineering	40	2012	No	--
+0002	FS	Food Technology	40	2004	No	--
+0002	IB	Industrial Bio-Technology	40	1992	No	--
+0002	IS	Industrial Bio-Technology	20	2004	No	--
+0002	LE	Leather Techology	40	1945	No	--
+0002	PP	Petroleum Engineering and Technology	40	2013	No	--
+0002	PM	Pharmaceutical Tech	20	2004	No	--
+0002	TX	Textile Technology	40	1945	No	--
+0003	AR	Architecture	80	1957	--	2013
+0004	AE	Aeronautical Engineering	40	1949	No	--
+0004	AU	Automobile Engineering	50	1949	No	--
+0004	CS	Computer science and engineering	60	2001	No	--
+0004	CM	Computer science and engineering	60	2008	No	--
+0004	EM	Electroncis and Communication Engg.	120	2002	No	--
+0004	EC	Electroncis and Communication Engg.	60	1949	No	--
+0004	EX	electroncis and Instrumentation Engg	60	2011	No	--
+0004	EI	electroncis and Instrumentation Engg	60	1949	No	--
+0004	IM	Information Technology	120	2001	No	--
+0004	PR	production Engineering	60	1977	No	--
+0004	RP	Rubber and Plastic tech	30	1988	No	--
+1013	CS	Computer science and engineering	60	2008	No	--
+1013	EC	Electroncis and Communication Engg.	60	2008	No	--
+1013	IT	Information Technology	60	2008	No	--
+1013	ME	Mechanical Engineering	60	2008	No	--
+1013	XM	Mechanical Engineering	60	2010	No	--
+1014	CE	Civil Engineering	60	2008	No	--
+1014	XC	Civil Engineering	60	2010	No	--
+1014	CS	Computer science and engineering	60	2008	No	--
+1014	EC	Electroncis and Communication Engg.	60	2008	No	--
+1014	IT	Information Technology	60	2008	No	--
+1015	CS	Computer science and engineering	60	2009	No	--
+1015	EE	Electrical and Electronics Engineering	60	2009	No	--
+1015	EC	Electroncis and Communication Engg.	60	2009	No	--
+1015	ME	Mechanical Engineering	60	2009	No	--
+1015	XM	Mechanical Engineering	60	2010	No	--
+1026	CS	Computer science and engineering	60	2010	No	--
+1026	EE	Electrical and Electronics Engineering	60	2010	No	--
+1026	EC	Electroncis and Communication Engg.	60	2010	No	--
+1026	ME	Mechanical Engineering	60	2010	No	--
+1101	CE	Civil Engineering	60	2007	No	--
+1101	CS	Computer science and engineering	120	2000	No	--
+1101	EE	Electrical and Electronics Engineering	60	2000	Yes	SEP2014
+1101	EC	Electroncis and Communication Engg.	120	2000	Yes	SEP2014
+1101	IT	Information Technology	60	2006	No	--
+1101	ME	Mechanical Engineering	120	2007	No	--
+1102	CS	Computer science and engineering	120	2001	No	--
+1102	EE	Electrical and Electronics Engineering	60	2002	No	--
+1102	EC	Electroncis and Communication Engg.	120	2001	No	--
+1102	IT	Information Technology	45	2001	No	--
+1102	ME	Mechanical Engineering	180	2001	No	--
+1104	CE	Civil Engineering	60	2011	No	--
+1104	CS	Computer science and engineering	60	2011	No	--
+1104	EE	Electrical and Electronics Engineering	60	2011	No	--
+1104	EC	Electroncis and Communication Engg.	60	2011	No	--
+1104	ME	Mechanical Engineering	60	2011	No	--
+1106	AE	Aeronautical Engineering	60	2006	No	--
+1106	CE	Civil Engineering	60	2001	No	--
+1106	CS	Computer science and engineering	120	1995	Yes	JAN2015
+1106	EE	Electrical and Electronics Engineering	60	1998	No	--
+1106	EC	Electroncis and Communication Engg.	120	1995	Yes	JAN2015
+1106	EI	electroncis and Instrumentation Engg	60	2002	No	--
+1106	IT	Information Technology	120	1998	No	--
+1106	ME	Mechanical Engineering	60	2002	No	--
+1106	TX	Textile Technology	40	1995	Yes	JAN2015
+1107	EE	Electrical and Electronics Engineering	60	2002	No	--
+1107	EC	Electronics and Communication	60	2001	No	--
+1108	CE	Civil Engineering	60	2009	No	--
+1108	CS	Computer science and engineering	60	1999	No	--
+1108	EE	Electrical and Electronics Engineering	60	1999	No	--
+1108	EC	Electronics and Communication	120	1999	No	--
+1108	IT	Information Technology	60	2012	No	--
+1108	ME	Mechanical Engineering	120	1999	No	--
+1110	BT	Bio-Technology	60	2002	No	--
+1110	CE	Civil Engineering	120	2009	No	--
+1110	CS	Computer science and engineering	120	2001	No	--
+1110	EE	Electrical and Electronics Engineering	120	2001	No	--
+1110	EC	Electronics and Communication	240	2001	No	--
+1110	IT	Information Technology	120	2001	No	--
+1110	ME	Mechanical Engineering	120	2009	No	--
+1112	CS	Computer science and engineering	120	2001	No	JUL2013
+1112	EE	Electrical and Electronics Engineering	120	2001	No	JUL2013
+1112	EC	Electronics and Communication	180	2001	No	JUL2013
+1112	EI	Electronics and Instrumentation engineering	60	2009	No	--
+1112	IT	Information Technology	60	2001	No	JUL2013
+1113	CE	Civil Engineering	120	2005	No	--
+1113	CS	Computer science and engineering	120	1997	YES	AUG2015
+1113	EE	Electrical and Electronics Engineering	120	1995	--	APR2014
+1113	EC	Electronics and Communication	180	1995	YES	AUG2015
+1113	EI	Electronics and Instrumentation engineering	60	1998	YES	AUG2015
+1113	IT	Information Technology	60	1999	YES	FEB2019
+1113	ME	Mechanical Engineering	120	1995	No	MAY2012
+1114	CE	Civil Engineering	60	2011	No	--
+1114	CS	Computer science and engineering	180	1998	#	FEB2012
+1114	EE	Electrical and Electronics Engineering	120	2001	#	FEB2012
+1114	EC	Electronics and Communication	180	1998	#	FEB2012
+1114	IT	Information Technology	60	1998	#	FEB2012
+1114	ME	Mechanical Engineering	120	1998	#	FEB2012
+1115	AU	Automobile Engineering	60	1999	No	--
+1115	CH	Chemical Engineering	40	1995	y	AUG2015
+1115	CS	Computer science and engineering	120	1995	No	--
+1115	EE	Electrical and Electronics Engineering	60	1993	y	AUG2015
+1115	EC	Electronics and Communication	90	1993	y	AUG2015
+1115	IT	Information Technology	90	1997	No	--
+1115	ME	Mechanical Engineering	60	1993	No	--
+1116	CE	Civil Engineering	60	2003	#	MAY2012
+1116	CS	Computer science and engineering	120	2000	#	MAY2012
+1116	EE	Electrical and Electronics Engineering	60	2000	No	--
+1116	EC	Electronics and Communication	120	2002	#	MAY2012
+1116	ME	Mechanical Engineering	180	2005	No	--
+1118	BM	Bio Medical Engineering	60	2007	No	--
+1118	CE	Civil Engineering	60	2009	No	--
+1118	CS	Computer science and engineering	120	2000	YES	AUG2018
+1118	EE	Electrical and Electronics Engineering	120	2001	#	MAR2010
+1118	EC	Electronics and Communication	120	2000	YES	AUG2018
+1118	IT	Information Technology	120	2000	#	JUL2009
+1118	ME	Mechanical Engineering	120	2004	No	--
+1120	AU	Automobile Engineering	60	2012	No	--
+1120	CE	Civil Engineering	120	2007	No	--
+1120	CS	Computer science and engineering	180	1995	YES	JAN2015
+1120	EE	Electrical and Electronics Engineering	120	1995	No	--
+1120	EC	Electronics and Communication	180	1995	YES	JAN2015
+1120	EI	Electronics and Instrumentation engineering	60	2002	YES	JAN2015
+1120	IT	Information Technology	60	1999	YES	JAN2015
+1120	ME	Mechanical Engineering	240	1999	YES	JAN2015
+1120	PR	Production Engineering	60	2008	No	--
+1121	CE	Civil Engineering	60	2002	No	--
+1121	CS	Computer science and engineering	60	2002	No	--
+1121	EE	Electrical and Electronics Engineering	60	2002	No	--
+1121	EC	Electronics and Communication	90	2002	No	--
+1121	ME	Mechanical Engineering	120	2009	No	--
+1122	BT	Bio-Technology	60	2006	No	--
+1122	CH	Chemical Engineering	30	2002	No	--
+1122	CE	Civil Engineering	120	2002	#	jan2011
+1122	CS	Computer science and engineering	120	2005	No	--
+1122	EE	Electrical and Electronics Engineering	60	2008	No	--
+1122	EC	Electronics and Communication	120	2002	No	jan2011
+1122	IT	Information Technology	60	2006	No	--
+1122	ME	Mechanical Engineering	120	2009	No	--
+1123	AE	Aeronautical Engineering	60	2007	No	--
+1123	CE	Civil Engineering	60	2011	No	--
+1123	CS	Computer science and engineering	90	2005	No	--
+1123	EE	Electrical and Electronics Engineering	30	2005	No	--
+1123	EC	Electronics and Communication	90	2005	No	--
+1123	IT	Information Technology	30	2007	No	--
+1123	ME	Mechanical Engineering	120	2005	No	--
+1124	AE	Aeronautical Engineering	60	2007	No	--
+1124	CE	Civil Engineering	60	2012	No	--
+1124	CS	Computer science and engineering	60	2006	No	--
+1124	EE	Electrical and Electronics Engineering	60	2012	No	--
+1124	EC	Electronics and Communication	60	2006	No	--
+1124	MR	Marine Engineering	40	2006	No	--
+1124	ME	Mechanical Engineering	60	2008	No	--
+1125	AE	Aeronautical Engineering	60	2008	No	--
+1125	CE	Civil Engineering	60	2012	No	--
+1125	CS	Computer science and engineering	60	2008	No	--
+1125	EE	Electrical and Electronics Engineering	60	2013	No	--
+1125	EC	Electronics and Communication	60	2008	No	--
+1125	ME	Mechanical Engineering	60	2009	No	--
+1126	CE	Civil Engineering	60	2013	No	--
+1126	CS	Computer science and engineering	120	2008	No	--
+1126	EE	Electrical and Electronics Engineering	60	2008	No	--
+1126	EC	Electronics and Communication	120	2008	No	--
+1126	IT	Information Technology	60	2008	No	--
+1126	ME	Mechanical Engineering	180	2009	No	--
+1127	AE	Aeronautical Engineering	60	2011	No	--
+1127	AR	Architecture	80	2012	No	--
+1127	CE	Civil Engineering	60	2010	No	--
+1127	CS	Computer science and engineering	120	2008	No	--
+1127	EE	Electrical and Electronics Engineering	60	2009	No	--
+1127	EC	Electronics and Communication	180	2008	No	--
+1127	IT	Information Technology	60	2008	No	--
+1127	ME	Mechanical Engineering	180	2008	No	--
+1128	CS	Computer science and engineering	120	2008	No	--
+1128	EE	Electrical and Electronics Engineering	60	2008	No	--
+1128	EC	Electronics and Communication	180	2008	No	--
+1128	ME	Mechanical Engineering	120	2010	No	--
+1130	AR	Architecture	120	2011	No	--
+1131	CE	Civil Engineering	60	2009	No	--
+1131	EE	Electrical and Electronics Engineering	120	2009	No	--
+1131	EC	Electronics and Communication	120	2009	No	--
+1131	ME	Mechanical Engineering	120	2009	No	--
+1132	AR	Architecture	80	2011	No	--
+1133	CE	Civil Engineering	60	2012	No	--
+1133	CS	Computer science and engineering	60	2012	No	--
+1133	EE	Electrical and Electronics Engineering	60	2012	No	--
+1133	EC	Electronics and Communication	120	2012	No	--
+1133	ME	Mechanical Engineering	120	2012	No	--
+1134	AR	Architecture	80	2011	No	--
+1135	AR	Architecture	80	2011	No	--
+1136	CE	Civil Engineering	60	2012	No	--
+1136	CS	Computer science and engineering	60	2012	No	--
+1136	EE	Electrical and Electronics Engineering	60	2012	No	--
+1136	EC	Electronics and Communication	60	2012	No	--
+1136	ME	Mechanical Engineering	60	2012	No	--
+1137	CE	Civil Engineering	60	2012	No	--
+1137	CS	Computer science and engineering	60	2012	No	--
+1137	EE	Electrical and Electronics Engineering	60	2012	No	--
+1137	EC	Electronics and Communication	60	2012	No	--
+1137	ME	Mechanical Engineering	60	2012	No	--
+1138	AR	Architecture	80	2012	No	--
+1140	CS	Computer science and engineering	60	2011	No	--
+1140	EE	Electrical and Electronics Engineering	60	2011	No	--
+1140	EC	Electronics and Communication	120	2011	No	--
+1140	IT	Information Technology	60	2011	No	--
+1140	ME	Mechanical Engineering	120	2011	No	--
+1141	CE	Civil Engineering	60	2011	No	--
+1141	CS	Computer science and engineering	60	2011	No	--
+1141	EE	Electrical and Electronics Engineering	60	2011	No	--
+1141	EC	Electronics and Communication	120	2011	No	--
+1141	ME	Mechanical Engineering	120	2011	No	--
+1142	AR	Architecture	80	2012	No	--
+1143	CE	Civil Engineering	60	2012	No	--
+1143	CS	Computer science and engineering	60	2012	No	--
+1143	EE	Electrical and Electronics Engineering	60	2012	No	--
+1143	EC	Electronics and Communication	60	2012	No	--
+1143	ME	Mechanical Engineering	60	2012	No	--
+1144	AR	Architecture	40	2012	No	--
+1145	AR	Architecture	40	2012	No	--
+1146	AR	Architecture	40	2012	No	--
+1149	CS	Computer science and engineering	120	2011	No	--
+1149	EE	Electrical and Electronics Engineering	120	2011	No	--
+1149	EC	Electronics and Communication	120	2011	No	--
+1149	IT	Information Technology	60	2011	No	--
+1149	ME	Mechanical Engineering	120	2011	No	--
+1201	CE	Civil Engineering	60	2009	No	--
+1201	CS	Computer science and engineering	90	2000	No	--
+1201	EE	Electrical and Electronics Engineering	60	2005	No	--
+1201	EC	Electronics and Communication	120	2000	No	--
+1201	IT	Information Technology	30	2000	No	--
+1201	ME	Mechanical Engineering	60	2009	No	--
+1202	AE	Aeronautical Engineering	60	2013	No	--
+1202	CE	Civil Engineering	120	2009	No	--
+1202	CS	Computer science and engineering	120	2001	#	apr2012
+1202	EE	Electrical and Electronics Engineering	120	2002	#	apr2012
+1202	EC	Electronics and Communication	180	2001	#	apr2012
+1202	IT	Information Technology	120	2001	No	--
+1202	ME	Mechanical Engineering	120	2009	No	--
+1204	CS	Computer science and engineering	60	1998	No	--
+1204	EE	Electrical and Electronics Engineering	60	1998	No	--
+1204	EC	Electronics and Communication	60	1998	No	--
+1205	CE	Civil Engineering	30	2005	No	--
+1205	CS	Computer science and engineering	90	2001	No	--
+1205	EE	Electrical and Electronics Engineering	60	2001	No	--
+1205	EC	Electronics and Communication	120	2001	No	--
+1205	IT	Information Technology	90	2001	No	--
+1205	ME	Mechanical Engineering	30	2005	No	--
+1206	CE	Civil Engineering	60	2009	No	--
+1206	CS	Computer science and engineering	120	2001	No	--
+1206	EE	Electrical and Electronics Engineering	60	2012	No	--
+1206	EC	Electronics and Communication	120	2001	No	--
+1206	IT	Information Technology	60	2001	No	--
+1206	ME	Mechanical Engineering	120	2001	No	--
+1207	CS	Computer science and engineering	120	2001	No	--
+1207	EC	Electronics and Communication	120	2001	No	--
+1207	IT	Information Technology	120	2006	No	--
+1207	ME	Mechanical Engineering	60	2001	No	--
+1208	CS	Computer science and engineering	90	2001	No	--
+1208	EE	Electrical and Electronics Engineering	60	2001	No	--
+1208	EC	Electronics and Communication	120	2001	No	--
+1208	IT	Information Technology	90	2001	No	--
+1208	ME	Mechanical Engineering	60	2001	No	--
+1209	CS	Computer science and engineering	120	1999	No	--
+1209	EE	Electrical and Electronics Engineering	60	1997	No	--
+1209	EC	Electronics and Communication	120	2001	No	--
+1209	IT	Information Technology	90	2001	No	--
+1209	ME	Mechanical Engineering	120	1997	No	--
+1210	CE	Civil Engineering	60	2009	No	--
+1210	CS	Computer science and engineering	120	2001	YES	dec2014
+1210	EE	Electrical and Electronics Engineering	60	2012	#	jan2011
+1210	EC	Electronics and Communication	120	2001	YES	dec2014
+1210	EI	electroncis and Instrumentation Engg	120	2007	No	--
+1210	IT	Information Technology	60	2001	YES	dec2014
+1210	ME	Mechanical Engineering	120	2001	No	jan2013
+1211	AE	Aeronautical Engineering	60	2004	No	--
+1211	AU	Automobile Engineering	60	2005	No	--
+1211	BM	Bio Medical Engineering	60	2005	No	--
+1211	BT	Bio-Technology	120	2002	No	apr2012
+1211	CE	Civil Engineering	60	2009	No	--
+1211	CS	Computer science and engineering	240	1997	No	JUL2011
+1211	EE	Electrical and Electronics Engineering	180	1998	YES	SEP2014
+1211	EC	Electronics and Communication	240	1997	No	JUL2011
+1211	IT	Information Technology	120	1999	No	--
+1211	ME	Mechanical Engineering	180	1997	No	JUL2011
+1212	AU	Automobile Engineering	60	2012	No	--
+1212	BM	Bio Medical Engineering	60	2002	No	JAN2014
+1212	CS	Computer science and engineering	60	2001	No	--
+1212	EE	Electrical and Electronics Engineering	60	2005	No	--
+1212	EC	Electronics and Communication	60	2001	No	--
+1212	ME	Mechanical Engineering	120	2005	No	--
+1212	PE	Petroleum Engineering	60	2005	No	--
+1213	CE	Civil Engineering	60	2011	No	--
+1213	CS	Computer science and engineering	120	2001	No	feb2012
+1213	EE	Electrical and Electronics Engineering	60	2005	No	--
+1213	EC	Electronics and Communication	120	2001	No	feb2012
+1213	IT	Information Technology	60	2001	No	feb2012
+1213	ME	Mechanical Engineering	60	2005	No	--
+1214	AU	Automobile Engineering	60	2012	No	--
+1214	CE	Civil Engineering	60	2011	No	--
+1214	CS	Computer science and engineering	120	2001	No	--
+1214	EE	Electrical and Electronics Engineering	60	2002	No	--
+1214	EC	Electronics and Communication	120	2001	No	--
+1214	IT	Information Technology	60	2001	No	--
+1214	ME	Mechanical Engineering	60	2011	No	--
+1216	CE	Civil Engineering	120	2012	No	--
+1216	CS	Computer science and engineering	120	2001	#	feb2012
+1216	EE	Electrical and Electronics Engineering	60	2002	#	feb2012
+1216	EC	Electronics and Communication	240	2001	#	feb2012
+1216	EI	electroncis and Instrumentation Engg	60	2011	No	--
+1216	IT	Information Technology	60	2001	#	feb2012
+1216	ME	Mechanical Engineering	180	2003	No	--
+1217	AU	Automobile Engineering	60	2009	No	--
+1217	BT	Bio-Technology	120	2003	No	--
+1217	CE	Civil Engineering	180	2002	No	--
+1217	CS	Computer science and engineering	120	1999	No	--
+1217	EE	Electrical and Electronics Engineering	90	1999	No	--
+1217	EC	Electronics and Communication	120	1999	No	--
+1217	IT	Information Technology	120	1999	No	--
+1217	ME	Mechanical Engineering	120	2005	No	--
+1218	CE	Civil Engineering	60	2011	No	--
+1218	CS	Computer science and engineering	120	1996	No	--
+1218	EE	Electrical and Electronics Engineering	90	1996	No	--
+1218	EC	Electronics and Communication	120	1996	No	--
+1218	IT	Information Technology	60	2000	No	--
+1218	ME	Mechanical Engineering	180	1996	No	--
+1219	AU	Automobile Engineering	60	1999	YES	SEP2014
+1219	BT	Bio-Technology	60	2005	No	--
+1219	CH	Chemical Engineering	90	1994	YES	SEP2014
+1219	CE	Civil Engineering	60	2008	No	--
+1219	CS	Computer science and engineering	180	1985	No	JUL2011
+1219	EE	Electrical and Electronics Engineering	120	1994	No	JUL2013
+1219	EC	Electronics and Communication	180	1985	YES	JUL2014
+1219	IT	Information Technology	120	1996	No	--
+1219	MR	Marine Engineering	30	1998	No	--
+1219	ME	Mechanical Engineering	120	1985	YES	JUL2014
+1221	CS	Computer science and engineering	60	2000	No	--
+1221	EE	Electrical and Electronics Engineering	60	20002	No	--
+1221	EC	Electronics and Communication	60	2000	No	--
+1221	ME	Mechanical Engineering	60	2011	No	--
+1222	AE	Aeronautical Engineering	60	2007	No	--
+1222	AU	Automobile Engineering	60	2012	No	--
+1222	CE	Civil Engineering	60	2012	No	--
+1222	CS	Computer science and engineering	120	2002	No	--
+1222	EE	Electrical and Electronics Engineering	60	2002	No	--
+1222	EC	Electronics and Communication	120	2002	No	--
+1222	IT	Information Technology	60	2007	No	--
+1222	ME	Mechanical Engineering	60	2011	No	--
+1225	CE	Civil Engineering	120	2012	No	--
+1225	CS	Computer science and engineering	60	2007	No	--
+1225	EE	Electrical and Electronics Engineering	60	2003	No	--
+1225	EC	Electronics and Communication	120	2003	No	--
+1225	EI	electroncis and Instrumentation Engg	60	2013	No	--
+1225	IT	Information Technology	60	2006	No	--
+1225	ME	Mechanical Engineering	120	2007	No	--
+1226	CE	Civil Engineering	60	2012	No	--
+1226	CS	Computer science and engineering	60	2007	No	--
+1226	EE	Electrical and Electronics Engineering	60	2006	No	--
+1226	EC	Electronics and Communication	60	2001	No	--
+1226	ME	Mechanical Engineering	120	2001	No	--
+1228	BM	Bio Medical Engineering	60	2006	No	--
+1228	CS	Computer science and engineering	120	2006	No	--
+1228	EC	Electronics and Communication	120	2006	No	--
+1228	IT	Information Technology	120	2006	No	--
+1228	ME	Mechanical Engineering	120	2012	No	--
+1229	CE	Civil Engineering	120	2009	No	--
+1229	CS	Computer science and engineering	120	2007	No	--
+1229	EE	Electrical and Electronics Engineering	60	2007	No	--
+1229	EC	Electronics and Communication	120	2007	No	--
+1229	IT	Information Technology	60	2007	No	--
+1229	ME	Mechanical Engineering	120	2008	No	--
+1230	AE	Aeronautical Engineering	60	2012	No	--
+1230	CS	Computer science and engineering	120	2007	No	--
+1230	EE	Electrical and Electronics Engineering	60	2007	No	--
+1230	EC	Electronics and Communication	120	2007	No	--
+1230	IT	Information Technology	60	2007	No	--
+1230	ME	Mechanical Engineering	120	2007	No	--
+1231	CS	Computer science and engineering	180	2008	No	--
+1231	EE	Electrical and Electronics Engineering	60	2008	No	--
+1231	EC	Electronics and Communication	180	2008	No	--
+1231	IT	Information Technology	120	2008	No	--
+1231	ME	Mechanical Engineering	180	2010	No	--
+1232	CS	Computer science and engineering	60	2008	No	--
+1232	EE	Electrical and Electronics Engineering	60	2008	No	--
+1232	EC	Electronics and Communication	60	2008	No	--
+1232	IT	Information Technology	60	2008	No	--
+1232	ME	Mechanical Engineering	120	2009	No	--
+1233	CE	Civil Engineering	60	2011	No	--
+1233	CS	Computer science and engineering	60	2008	No	--
+1233	EE	Electrical and Electronics Engineering	60	2008	No	--
+1233	EC	Electronics and Communication	90	2008	No	--
+1233	ME	Mechanical Engineering	120	2010	No	--
+1234	CS	Computer science and engineering	60	2008	No	--
+1234	EE	Electrical and Electronics Engineering	60	2008	No	--
+1234	EC	Electronics and Communication	120	2008	No	--
+1234	IT	Information Technology	60	2008	No	--
+1235	AU	Automobile Engineering	60	2013	No	--
+1235	CE	Civil Engineering	60	2009	No	--
+1235	CS	Computer science and engineering	60	2008	No	--
+1235	EE	Electrical and Electronics Engineering	60	2012	No	--
+1235	EC	Electronics and Communication	90	2008	No	--
+1235	IT	Information Technology	30	2008	No	--
+1235	ME	Mechanical Engineering	120	2008	No	--
+1237	CS	Computer science and engineering	180	2008	No	--
+1237	EE	Electrical and Electronics Engineering	60	2008	No	--
+1237	EC	Electronics and Communication	120	2008	No	--
+1237	IT	Information Technology	60	2008	No	--
+1237	ME	Mechanical Engineering	180	2011	No	--
+1238	AU	Automobile Engineering	60	2011	No	--
+1238	CE	Civil Engineering	60	2009	No	--
+1238	CS	Computer science and engineering	60	2008	No	--
+1238	EE	Electrical and Electronics Engineering	60	2008	No	--
+1238	EC	Electronics and Communication	120	2008	No	--
+1238	ME	Mechanical Engineering	120	2009	No	--
+1241	CE	Civil Engineering	60	2010	No	--
+1241	CS	Computer science and engineering	120	2009	No	--
+1241	EE	Electrical and Electronics Engineering	60	2009	No	--
+1241	EC	Electronics and Communication	120	2009	No	--
+1241	ME	Mechanical Engineering	120	2009	No	--
+1242	CS	Computer science and engineering	60	2009	No	--
+1242	EE	Electrical and Electronics Engineering	60	2009	No	--
+1242	EC	Electronics and Communication	60	2009	No	--
+1242	ME	Mechanical Engineering	120	2009	No	--
+1243	CE	Civil Engineering	120	2010	No	--
+1243	CS	Computer science and engineering	60	2009	No	--
+1243	EE	Electrical and Electronics Engineering	60	2009	No	--
+1243	EC	Electronics and Communication	60	2009	No	--
+1243	IT	Information Technology	60	2009	No	--
+1243	ME	Mechanical Engineering	120	2011	No	--
+1245	CE	Civil Engineering	60	2009	No	--
+1245	CS	Computer science and engineering	60	2011	No	--
+1245	EE	Electrical and Electronics Engineering	60	2009	No	--
+1245	EC	Electronics and Communication	60	2009	No	--
+1245	ME	Mechanical Engineering	60	2009	No	--
+1301	CE	Civil Engineering	60	2007	No	--
+1301	CS	Computer science and engineering	60	2001	No	--
+1301	EE	Electrical and Electronics Engineering	60	2005	No	--
+1301	EC	Electronics and Communication	120	2001	No	--
+1301	IT	Information Technology	60	201	No	--
+1301	MX	Material Science and Engineering	60	2012	No	--
+1301	ME	Mechanical Engineering	120	2005	No	--
+1303	CE	Civil Engineering	60	2013	No	-
+1303	CS	Computer science and engineering	120	2000	YES	ju 2014
+1303	EE	Electrical and Electronics Engineering	120	2002	YES	ju 2014
+1303	EC	Electronics and Communication	180	2000	YES	ju 2014
+1303	EI	Electronics and Instrumentation engineering	120	2005	No	-
+1303	IT	Information Technology	120	2000	No	-
+1303	ME	Mechanical Engineering	120	2003	#	may 2012
+1304	CE	Civil Engineering	120	2007	No	jan 2015
+1304	CS	Computer science and engineering	120	1996	YES	jan 2015
+1304	EE	Electrical and Electronics Engineering	120	1996	YES	jan 2015
+1304	EC	Electronics and Communication	180	1996	YES	jan 2015
+1304	EI	Electronics and Instrumentation engineering	120	1996	YES	jan 2015
+1304	IT	Information Technology	120	1999	YES	jan 2015
+1304	ME	Mechanical Engineering	180	2003	#	may 2012
+1306	AE	Automobile Engineering	60	2008	No	-
+1306	BT	Bio-Technology	60	2002	No	-
+1306	CE	Civil Engineering	60	2009	No	-
+1306	CS	Computer science and engineering	120	2001	No	-
+1306	EE	Electrical and Electronics Engineering	120	2001	No	-
+1306	EC	Electronics and Communication	120	2001	No	-
+1306	EI	Electronics and Instrumentation engineering	120	2008	No	-
+1306	IT	Information Technology	120	2001	No	-
+1306	ME	Mechanical Engineering	120	2002	No	-
+1307	BM	Bio-Medical Engg	60	2005	No	-
+1307	CE	Civil Engineering	180	2001	No	may 2012
+1307	CS	Computer science and engineering	120	1995	No	may 2012
+1307	EE	Electrical and Electronics Engineering	120	1995	No	may 2012
+1307	EC	Electronics and Communication	120	1995	No	may 2012
+1307	EI	Electronics and Instrumentation engineering	60	2013	No	-
+1307	IT	Information Technology	120	1999	No	may 2012
+1308	AR	Architecture	120	1999	No	-
+1309	CE	Civil Engineering	60	2002	No	-
+1309	CS	Computer science and engineering	60	2001	No	-
+1309	EE	Electrical and Electronics Engineering	60	2003	No	-
+1309	EC	Electronics and Communication	120	2001	No	-
+1309	IT	Information Technology	60	2001	No	-
+1309	ME	Mechanical Engineering	60	2010	No	-
+1310	CE	Civil Engineering	120	2005	YES	Sep 2015
+1310	CS	Computer science and engineering	120	1994	YES	Sep 2015
+1310	EE	Electrical and Electronics Engineering	60	1999	YES	Sep 2015
+1310	EC	Electronics and Communication	180	1994	YES	Sep 2015
+1310	IT	Information Technology	60	1999	YES	Sep 2015
+1310	ME	Mechanical Engineering	120	1994	YES	Sep 2015
+1311	AE	Aeronautical Engineering	120	2007	No	-
+1311	CE	Civil Engineering	120	2011	No	-
+1311	CS	Computer science and engineering	120	1998	YES	mar 2015
+1311	EE	Electrical and Electronics Engineering	120	1998	YES	mar 2015
+1311	EC	Electronics and Communication	120	1998	YES	mar 2015
+1311	EI	Electronics and Instrumentation engineering	60	2012	No	-
+1311	IT	Information Technology	60	2001	No	-
+1311	ME	Mechanical Engineering	120	1998	YES	mar 2015
+1313	BM	Bio-Medical Engg	60	2005	No	-
+1313	CE	Civil Engineering	60	2011	No	-
+1313	CS	Computer science and engineering	60	2001	No	-
+1313	EE	Electrical and Electronics Engineering	60	2002	No	-
+1313	EC	Electronics and Communication	60	2001	No	-
+1313	ME	Mechanical Engineering	120	2009	No	-
+1315	BM	Bio-Medical Engg	60	2005	No	-
+1315	CH	Chemical Engineering	60	2004	No	-
+1315	CE	Civil Engineering	60	2011	No	-
+1315	CS	Computer science and engineering	120	1996	No	-
+1315	EE	Electrical and Electronics Engineering	120	1996	No	-
+1315	EC	Electronics and Communication	120	1996	No	-
+1315	IT	Information Technology	120	1999	No	-
+1315	ME	Mechanical Engineering	120	2007	No	-
+1316	CE	Civil Engineering	60	2010	No	-
+1316	CS	Computer science and engineering	120	2001	No	feb2012
+1316	EE	Electrical and Electronics Engineering	60	2001	No	feb2012
+1316	EC	Electronics and Communication	180	2001	No	feb2012
+1316	IT	Information Technology	60	2001	No	-
+1316	ME	Mechanical Engineering	120	2010	No	-
+1317	BT	Bio Technology	60	2002	YES	jun 2014
+1317	CH	Chemical Engineering	60	1994	YES	jun 2014
+1317	CS	Computer science and engineering	180	1995	YES	aug 2015
+1317	EE	Electrical and Electronics Engineering	120	1996	YES	aug 2015
+1317	EC	Electronics and Communication	180	1994	YES	jun 2014
+1317	EI	Electronics and Instrumentation engineering	180	1999	YES	jun 2014
+1317	IT	Information Technology	120	1997	YES	jun 2014
+1317	IC	Instumentation and Control Engg	60	1994	YES	aug 2018
+1317	ME	Mechanical Engineering	180	1998	YES	aug 2018
+1318	CE	Civil Engineering	120	2012	No	-
+1318	CS	Computer science and engineering	120	2001	No	-
+1318	EE	Electrical and Electronics Engineering	120	2003	No	-
+1318	EC	Electronics and Communication	120	2001	No	-
+1318	IT	Information Technology	60	2001	No	-
+1318	ME	Mechanical Engineering	120	2002	No	-
+1319	CE	Civil Engineering	120	2012	No	-
+1319	CS	Computer science and engineering	120	1995	No	-
+1319	EE	Electrical and Electronics Engineering	60	1995	No	-
+1319	EC	Electronics and Communication	120	1995	No	-
+1319	EI	Electronics and Instrumentation engineering	60	2000	No	-
+1319	IT	Information Technology	60	1999	No	-
+1319	ME	Mechanical Engineering	120	1995	No	-
+1320	CE	Civil Engineering	120	2011	No	-
+1320	CS	Computer science and engineering	120	2002	No	-
+1320	EE	Electrical and Electronics Engineering	60	2002	No	-
+1320	EC	Electronics and Communication	120	2002	No	-
+1320	IT	Information Technology	120	2005	No	-
+1320	ME	Mechanical Engineering	120	2012	No	-
+1321	MN	Manufacturing Engineering	60	201	No	-
+1321	PA	Plastic Technology	60	2008	No	-
+1322	AE	Aeronautical Engineering	60	2006	No	-
+1322	CE	Civil Engineering	120	2012	No	-
+1322	CS	Computer science and engineering	120	2001	No	-
+1322	EE	Electrical and Electronics Engineering	60	2004	No	-
+1322	EC	Electronics and Communication	120	2001	No	-
+1322	IT	Information Technology	60	2001	No	-
+1322	ME	Mechanical Engineering	180	2004	No	-
+1323	CE	Civil Engineering	60	2010	No	-
+1323	CS	Computer science and engineering	60	2008	No	-
+1323	EE	Electrical and Electronics Engineering	60	2008	No	-
+1323	EC	Electronics and Communication	120	2008	No	-
+1323	ME	Mechanical Engineering	120	2009	No	-
+1324	CE	Civil Engineering	60	2013	No	-
+1324	CS	Computer science and engineering	120	2008	No	-
+1324	EE	Electrical and Electronics Engineering	120	2008	No	-
+1324	EC	Electronics and Communication	120	2008	No	-
+1324	IT	Information Technology	120	2008	No	-
+1324	ME	Mechanical Engineering	120	2011	No	-
+1325	CE	Civil Engineering	120	2011	No	-
+1325	CS	Computer science and engineering	60	2008	No	-
+1325	EE	Electrical and Electronics Engineering	60	2008	No	-
+1325	EC	Electronics and Communication	120	2008	No	-
+1325	IT	Information Technology	60	2008	No	-
+1325	ME	Mechanical Engineering	120	2009	No	-
+1326	CS	Computer science and engineering	60	2008	No	-
+1326	EE	Electrical and Electronics Engineering	60	2008	No	-
+1326	EC	Electronics and Communication	120	2008	No	-
+1326	ME	Mechanical Engineering	120	2009	No	-

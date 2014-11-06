@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CollegeDBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="CollegeDBContext" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="EntityPhoneInfoes" EntityType="CollegeDBModel.EntityPhoneInfo" />
+    <EntitySet Name="EntityWebsiteInfoes" EntityType="CollegeDBModel.EntityWebsiteInfo" />
+    <EntitySet Name="LocationTypes" EntityType="CollegeDBModel.LocationType" />
+    <EntitySet Name="NearbyPlaces" EntityType="CollegeDBModel.NearbyPlace" />
+    <EntitySet Name="CollegeInfoes" EntityType="CollegeDBModel.CollegeInfo" />
+    <EntitySet Name="DepartmentInfoes" EntityType="CollegeDBModel.DepartmentInfo" />
+    <AssociationSet Name="FK_EntityPhoneInfo_CollegeInfo" Association="CollegeDBModel.FK_EntityPhoneInfo_CollegeInfo">
+      <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
+      <End Role="EntityPhoneInfo" EntitySet="EntityPhoneInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EntityWebsiteInfo_CollegeInfo" Association="CollegeDBModel.FK_EntityWebsiteInfo_CollegeInfo">
+      <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
+      <End Role="EntityWebsiteInfo" EntitySet="EntityWebsiteInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NearbyPlaces_LocationTypes" Association="CollegeDBModel.FK_NearbyPlaces_LocationTypes">
+      <End Role="LocationTypes" EntitySet="LocationTypes" />
+      <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
+    </AssociationSet>
+    <AssociationSet Name="FK_NearbyPlaces_CollegeInfo" Association="CollegeDBModel.FK_NearbyPlaces_CollegeInfo">
+      <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
+      <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Departmen__Colle__2B3F6F97" Association="CollegeDBModel.FK__Departmen__Colle__2B3F6F97">
+      <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
+      <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Departmen__Colle__2D27B809" Association="CollegeDBModel.FK__Departmen__Colle__2D27B809">
+      <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
+      <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="EntityPhoneInfo">
+    <Key>
+      <PropertyRef Name="EntityId" />
+      <PropertyRef Name="Phone" />
+    </Key>
+    <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Phone" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="CollegeInfo" Relationship="CollegeDBModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="EntityPhoneInfo" ToRole="CollegeInfo" />
+  </EntityType>
+  <EntityType Name="EntityWebsiteInfo">
+    <Key>
+      <PropertyRef Name="EntityId" />
+      <PropertyRef Name="Website" />
+    </Key>
+    <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Website" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="CollegeInfo" Relationship="CollegeDBModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="EntityWebsiteInfo" ToRole="CollegeInfo" />
+  </EntityType>
+  <EntityType Name="LocationType">
+    <Key>
+      <PropertyRef Name="LocationType1" />
+    </Key>
+    <Property Name="LocationType1" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="NearbyPlaces" Relationship="CollegeDBModel.FK_NearbyPlaces_LocationTypes" FromRole="LocationTypes" ToRole="NearbyPlaces" />
+  </EntityType>
+  <EntityType Name="NearbyPlace">
+    <Key>
+      <PropertyRef Name="EntityId" />
+      <PropertyRef Name="LocationType" />
+      <PropertyRef Name="LocationName" />
+    </Key>
+    <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="LocationType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="LocationName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Distance" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="LocationType1" Relationship="CollegeDBModel.FK_NearbyPlaces_LocationTypes" FromRole="NearbyPlaces" ToRole="LocationTypes" />
+    <NavigationProperty Name="CollegeInfo" Relationship="CollegeDBModel.FK_NearbyPlaces_CollegeInfo" FromRole="NearbyPlaces" ToRole="CollegeInfo" />
+  </EntityType>
+  <EntityType Name="CollegeInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="Principal_Name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Address" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="District" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="BankAccount" Type="String" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="BankName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="EntityPhoneInfoes" Relationship="CollegeDBModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityPhoneInfo" />
+    <NavigationProperty Name="EntityWebsiteInfoes" Relationship="CollegeDBModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityWebsiteInfo" />
+    <NavigationProperty Name="NearbyPlaces" Relationship="CollegeDBModel.FK_NearbyPlaces_CollegeInfo" FromRole="CollegeInfo" ToRole="NearbyPlaces" />
+    <NavigationProperty Name="DepartmentInfoes" Relationship="CollegeDBModel.FK__Departmen__Colle__2B3F6F97" FromRole="CollegeInfo" ToRole="DepartmentInfo" />
+    <NavigationProperty Name="DepartmentInfoes1" Relationship="CollegeDBModel.FK__Departmen__Colle__2D27B809" FromRole="CollegeInfo" ToRole="DepartmentInfo" />
+  </EntityType>
+  <EntityType Name="DepartmentInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+      <PropertyRef Name="CollegeId" />
+    </Key>
+    <Property Name="Id" Type="String" Nullable="false" MaxLength="5" Unicode="false" FixedLength="false" />
+    <Property Name="BranchName" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
+    <Property Name="CollegeId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="BranchCode" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+    <Property Name="ApprovedIntake" Type="Int32" />
+    <Property Name="YearofStartingCourse" Type="Int32" />
+    <Property Name="NBAAccredited" Type="Int32" />
+    <Property Name="AccreditionValidUpto" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="CollegeInfo" Relationship="CollegeDBModel.FK__Departmen__Colle__2B3F6F97" FromRole="DepartmentInfo" ToRole="CollegeInfo" />
+    <NavigationProperty Name="CollegeInfo1" Relationship="CollegeDBModel.FK__Departmen__Colle__2D27B809" FromRole="DepartmentInfo" ToRole="CollegeInfo" />
+  </EntityType>
+  <Association Name="FK_EntityPhoneInfo_CollegeInfo">
+    <End Role="CollegeInfo" Type="CollegeDBModel.CollegeInfo" Multiplicity="1" />
+    <End Role="EntityPhoneInfo" Type="CollegeDBModel.EntityPhoneInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollegeInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntityPhoneInfo">
+        <PropertyRef Name="EntityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EntityWebsiteInfo_CollegeInfo">
+    <End Role="CollegeInfo" Type="CollegeDBModel.CollegeInfo" Multiplicity="1" />
+    <End Role="EntityWebsiteInfo" Type="CollegeDBModel.EntityWebsiteInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollegeInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EntityWebsiteInfo">
+        <PropertyRef Name="EntityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NearbyPlaces_LocationTypes">
+    <End Role="LocationTypes" Type="CollegeDBModel.LocationType" Multiplicity="1" />
+    <End Role="NearbyPlaces" Type="CollegeDBModel.NearbyPlace" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LocationTypes">
+        <PropertyRef Name="LocationType1" />
+      </Principal>
+      <Dependent Role="NearbyPlaces">
+        <PropertyRef Name="LocationType" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_NearbyPlaces_CollegeInfo">
+    <End Role="CollegeInfo" Type="CollegeDBModel.CollegeInfo" Multiplicity="1" />
+    <End Role="NearbyPlaces" Type="CollegeDBModel.NearbyPlace" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollegeInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="NearbyPlaces">
+        <PropertyRef Name="EntityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Departmen__Colle__2B3F6F97">
+    <End Role="CollegeInfo" Type="CollegeDBModel.CollegeInfo" Multiplicity="1" />
+    <End Role="DepartmentInfo" Type="CollegeDBModel.DepartmentInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollegeInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DepartmentInfo">
+        <PropertyRef Name="CollegeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Departmen__Colle__2D27B809">
+    <End Role="CollegeInfo" Type="CollegeDBModel.CollegeInfo" Multiplicity="1" />
+    <End Role="DepartmentInfo" Type="CollegeDBModel.DepartmentInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CollegeInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="DepartmentInfo">
+        <PropertyRef Name="CollegeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

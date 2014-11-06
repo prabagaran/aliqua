@@ -1,0 +1,9 @@
+﻿<publishData>
+<publishProfile
+publishUrl="https://prabagaranvt-001-site1.myasp.net:8172/msdeploy.axd"
+msdeploySite="prabagaranvt-001-site1"
+destinationAppUrl="http://prabagaranvt-001-site1.myasp.net/"
+profileName="Default Settings"
+publishMethod="MSDeploy"
+userName="ifc\prabagaranvt-001" />
+</publishData>

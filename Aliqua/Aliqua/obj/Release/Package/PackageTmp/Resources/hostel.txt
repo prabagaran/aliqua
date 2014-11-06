@@ -1,0 +1,209 @@
+﻿College Name	College ID	Accomodation for UG	Gender	Permanent	Type of mess	Mess Bill in Rs\Year	Room Rent Rs\Year	Electricy Charges	Caution Deposit	Establishment Charges Rs\Yr	Admission Fee	Transport Facility	Transport optional or compulsory	Min Transport charges	Max transport charges	Minority status
+DMI College of Engineering	1202	Engineering	Male 	Yes	Veg/Non veg	2000	10000	NA	100000	20000	300000	Yes	Optional	3000	5000	No
+DMI College of Engineering	1202	Engineering	Female	Yes	Veg/Non veg	2000	10000	NA	100000	20000	300000	Yes	Optional	3000	5000	No
+Kalsar college of engineering	1204	Engineering	Male 	Yes	Veg/Non veg	2500	10000	NA	100000	20000	300000	Yes	Optional	3000	5000	No
+university department of anna university -ceg campus	0001	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -ceg campus	0001	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -act campus	0002	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -act campus	0002	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -sap campus	0003	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -sap campus	0003	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -mit campus	0004	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university department of anna university -mit campus	0004	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, Villupuram	1013	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, Tindivanam	1013	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, Tindivanam	1014	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, Tindivanam	1014	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, arni	1015	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, arni	1015	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, kanchipuram	1026	Engineering	Male 	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+university college of engineering, kanchipuram	1026	Engineering	Female	Yes	Veg/Non veg	Dividing	14400	14400	5000	11000	500	No	--	--	--	No
+aalim muhammed salegh college of engineering	1101	Engineering	Male 	Yes	Veg/Non veg	39000	13000	3000	1000	--	250	Yes	Optional	19600	22600	$
+bahjarang engineering college	1102	Engineering	Male 	Yes	Veg/Non veg	24000	18000	3000	10000	5000	250	Yes	Optional	10000	20000	$
+bahjarang engineering college	1102	Engineering	Female	Yes	Veg/Non veg	24000	18000	3000	10000	5000	250	Yes	Optional	10000	20000	$
+pallava raja college of engineering	1104	Engineering	Male 	Yes	Veg/Non veg	45000	10200	1800	--	--	1000	Yes	Optional	5000	10000	No
+pallava raja college of engineering	1104	Engineering	Female	Yes	Veg/Non veg	45000	10200	1800	--	--	1000	Yes	Optional	5000	10000	No
+jaya engineering college	1106	Engineering	Male 	Yes	Veg/Non veg	30000	12000	3000	--	5000	500	Yes	Optional	23000	30000	No
+jaya engineering college	1106	Engineering	Female	Yes	Veg/Non veg	30000	12000	3000	--	5000	500	Yes	Optional	23000	30000	No
+jaya institute of technology	1107	Institute	Male 	Yes	Veg/Non veg	30000	12000	3000	--	5000	200	Yes	Optional	10000	20000	Yes
+jaya institute of technology	1107	Engineering	Female	Yes	Veg/Non veg	30000	12000	3000	--	5000	200	Yes	Optional	10000	20000	Yes
+Magna College of Engineering	1108	Engineering	Male 	Yes	Veg/Non veg	50000	12000	500	1000	--	100	Yes	Compulsory	15000	21000	$
+Magna College of Engineering	1108	Engineering	Female	Yes	Veg/Non veg	50000	12000	500	1000	--	100	Yes	Compulsory	15000	21000	$
+Prathyusha institute of technology and management	1110	Management	Male 	Yes	Veg/Non veg	45000	14000	6000	--	3000	1000	Yes	Compulsory	17500	24000	$
+Prathyusha institute of technology and management	1110	Management	Female	Yes	Veg/Non veg	45000	14000	6000	--	3000	1000	Yes	Compulsory	17500	24000	$
+R M D Engineering College	1112	Engineering	Male 	Yes	Veg/Non veg	44000	21000	10000	---	10000	--	Yes	Optional	8000	26500	Yes
+R M D Engineering College	1112	Engineering	Female	Yes	Veg/Non veg	44000	21000	10000	---	10000	--	Yes	Optional	8000	26500	Yes
+R M K Engineering College	1113	Engineering	Male 	Yes	Veg/Non veg	44000	21000	10000	---	10000	--	Yes	Optional	8000	26500	Yes
+R M K Engineering College	1113	Engineering	Female	Yes	Veg/Non veg	44000	21000	10000	---	10000	--	Yes	Optional	8000	26500	Yes
+S A Engineeing College	1114	Engineering	Male 	Yes	Veg/Non veg	34700	15400	4900	---	--	--	Yes	Compulsory	13000	25000	Yes
+S A Engineeing College	1114	Engineering	Female	Yes	Veg/Non veg	34700	15400	4900	---	--	--	Yes	Compulsory	13000	25000	Yes
+Sriram Engineering college	1115	Engineering	Male 	Yes	Veg/Non veg	50000	--	--	---	--	--	Yes	Optional	21000	27000	Yes
+Sriram Engineering college	1115	Engineering	Female	Yes	Veg/Non veg	50000	--	--	---	--	--	Yes	Optional	21000	27000	Yes
+Sri Venkateswara College of Engineering and Technology	1116	Engineering	Male 	Yes	Veg/Non veg	45000	6500	3500	2000	--	500	Yes	Compulsory	7500	22000	Yes
+Sri Venkateswara College of Engineering and Technology	1116	Engineering	Female	Yes	Veg/Non veg	45000	6500	3500	2000	--	500	Yes	Compulsory	7500	22000	Yes
+Vel tech multi tech Dr.rangarajan Dr.sakunthala Engineering College	1118	Engineering	Male 	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+Vel tech multi tech Dr.rangarajan Dr.sakunthala Engineering College	1118	Engineering	Female	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+Velammal Engineering College	1120	Engineering	Male 	Yes	Veg/Non veg	45000	18000	3000	3000	4000	7500	Yes	Compulsory	24000	24000	No
+Velammal Engineering College	1120	Engineering	Female	Yes	Veg/Non veg	45000	18000	3000	3000	4000	7500	Yes	Compulsory	24000	24000	No
+Sri Venkateswara institute of Science and Technology	1121	Institute	Male 	Yes	Veg/Non veg	42000	7200	3600	2500	3000	500	Yes	Optional	9000	22500	$
+Sri Venkateswara institute of Science and Technology	1121	Institute	Female	Yes	Veg/Non veg	42000	7200	3600	2500	3000	500	Yes	Optional	9000	22500	$
+Vel tech High tech Dr.rangarajan Dr.sakunthala Engineering College	1122	Engineering	Male 	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+Vel tech High tech Dr.rangarajan Dr.sakunthala Engineering College	1122	Engineering	Female	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+Gojan School of Business and Technology	1123	School technology	Male 	Yes	Veg/Non veg	25000	10000	--	10000	--	500	Yes	Optional	8000	18000	No
+Gojan School of Business and Technology	1123	School technology	Female	Yes	Veg/Non veg	25000	10000	--	10000	--	500	Yes	Optional	8000	18000	No
+SAMS College of Engineering and Technology	1124	Engineering	Male 	Yes	Veg/Non veg	32400	9000	4800	3000	1800	1000	Yes	Optional	8000	18000	No
+SAMS College of Engineering and Technology	1124	Engineering	Female	Yes	Veg/Non veg	32400	9000	4800	3000	1800	1000	Yes	Optional	8000	18000	No
+PMR Engineering College	1125	Engineering	Male 	Yes	Veg/Non veg	Divide	16500	5500	---	5000	2000	Yes	Optional	19900	19900	No
+PMR Engineering College	1125	Engineering	Female	Yes	Veg/Non veg	Divide	16500	5500	---	5000	2000	Yes	Optional	19900	19900	No
+J N N Institute of engineering	1126	Engineering	Male 	Yes	Veg/Non veg	26400	19200	6000	--	--	--	Yes	Optional	--	--	No
+J N N Institute of engineering	1126	Engineering	Female	Yes	Veg/Non veg	26400	19200	6000	--	--	--	Yes	Optional	--	--	No
+St. Peter's College of Engineering and Technology	1127	Engineering	Male 	Yes	Veg/Non veg	26400	23000	150	--	--	250	Yes	Optional	12000	35000	No
+St. Peter's College of Engineering and Technology	1127	Engineering	Female	Yes	Veg/Non veg	26400	23000	150	--	--	250	Yes	Optional	12000	35000	No
+R M K College of Engineering and Technology	1128	Engineering	Male 	Yes	Veg/Non veg	44000	21000	10000	--	10000	--	Yes	Optional	8000	26500	Yes
+R M K College of Engineering and Technology	1128	Engineering	Female	Yes	Veg/Non veg	44000	21000	10000	--	10000	--	Yes	Optional	8000	26500	Yes
+marg institute of design and Architecture swarnabhoomi (midas)	1130	Institute	Male 	Yes	Veg/Non veg	52950	25350	7200	10000	7500	10000	Yes	Optional	20000	60000	Yes
+marg institute of design and Architecture swarnabhoomi (midas)	1130	Institute	Female	Yes	Veg/Non veg	52950	25350	7200	10000	7500	10000	Yes	Optional	20000	60000	Yes
+Vel Tech	1131	Engineering	Male 	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+Vel Tech	1131	Engineering	Female	Yes	Veg/Non veg	38000	18000	9000	5000	--	5000	Yes	Optional	15000	30000	Yes
+rajalakshmi school of architecture	1132	School technology	Male 	Yes	Veg/Non veg	27000	23004	---	--	--	1000	Yes	Optional	27000	27000	Yes
+rajalakshmi school of architecture	1132	School technology	Female	Yes	Veg/Non veg	27000	23004	---	--	--	1000	Yes	Optional	27000	27000	Yes
+annai veilankanni's college or engineering	1133	Engineering	Male 	Yes	Veg/Non veg	30000	20000	5000	5000	5000	5000	Yes	Optional	15000	20000	No
+annai veilankanni's college or engineering	1133	Engineering	Female	Yes	Veg/Non veg	30000	20000	5000	5000	5000	5000	Yes	Optional	15000	20000	No
+surya school of architecture	1134	School technology	Male 	Yes	Veg/Non veg	24600	21000	---	5000	--	--	Yes	Optional	8000	13000	No
+surya school of architecture	1134	School technology	Female	Yes	Veg/Non veg	24600	21000	---	5000	--	--	Yes	Optional	8000	13000	No
+aalim muhammed salegh academy of architecture	1135	Academy of Archi	Male 	Yes	Veg/Non veg	39000	13000	3000	1000	--	250	Yes	Optional	19600	22600	No
+vedhantha institute of technology	1136	Institute	Male 	Yes	Veg/Non veg	30000	6000	600	2500	2500	500	Yes	Optional	5000	10000	No
+vedhantha institute of technology	1136	Institute	Female	Yes	Veg/Non veg	30000	6000	600	2500	2500	500	Yes	Optional	5000	10000	No
+annai mira college of engineering and technology	1137	Engineering	Male 	Yes	Veg/Non veg	36000	12000	2400	5000	--	--	Yes	Optional	7000	15000	No
+annai mira college of engineering and technology	1137	Engineering	Female	Yes	Veg/Non veg	36000	12000	2400	5000	--	--	Yes	Optional	7000	15000	No
+da vinci school of design and architecture	1138	architecture	Male 	Yes	Veg/Non veg	60000		Dividing	5000	--	1000	Yes	Optional	12000	20000	$
+da vinci school of design and architecture	1138	architecture	Female	Yes	Veg/Non veg	60000		Dividing	5000	--	1000	Yes	Optional	12000	20000	$
+jeppiaar institute of technology	1140	Institute	Male 	Yes	Veg/Non veg	24000	24000	--	--	--	--	Yes	Optional	--	--	Yes
+jeppiaar institute of technology	1140	Institute	Female	Yes	Veg/Non veg	24000	24000	--	--	--	--	Yes	Optional	--	--	Yes
+r v s padhmavathy college of engineering and technology	1141	Engineering	Male 	Yes	Veg/Non veg	36000	24000	3000	5000	2500	500	Yes	Compulsory	2000	30000	No
+r v s padhmavathy college of engineering and technology	1141	Engineering	Female	Yes	Veg/Non veg	36000	24000	3000	5000	2500	500	Yes	Compulsory	2000	30000	No
+sri renugambal college of architecture	1142	architecture	Male 	Yes	Veg/Non veg	54000	9000	3000	3000	2500	1500	Yes	Optional	5000	7500	No
+sri renugambal college of architecture	1142	architecture	Female	Yes	Veg/Non veg	54000	9000	3000	3000	2500	1500	Yes	Optional	5000	7500	No
+kumaran institute of technology	1143	Institute	Male 	Yes	Veg/Non veg	30000	14400	2400	2500	1000	1200	Yes	Optional	12000	18000	No
+kumaran institute of technology	1143	Institute	Female	Yes	Veg/Non veg	30000	14400	2400	2500	1000	1200	Yes	Optional	12000	18000	No
+rvs padmavathy school of architecture	1144	architecture	Male 	Yes	Veg/Non veg	36000	24000	3000	10000	2500	500	Yes	Compulsory	5000	35000	No
+rvs padmavathy school of architecture	1144	architecture	Female	Yes	Veg/Non veg	36000	24000	3000	10000	2500	500	Yes	Compulsory	5000	35000	No
+anand school of architecture	1145	architecture	Male 	Yes	Veg/Non veg	27000	12000	6000	--	12000	2000	Yes	Compulsory	26000	26000	No
+anand school of architecture	1145	architecture	Female	Yes	Veg/Non veg	27000	12000	6000	--	12000	2000	Yes	Compulsory	26000	26000	No
+misirimal navajee munoth jain school of architecture	1146	architecture	Male 	Yes	Veg/Non veg	36000	12000	6000	5000	3500	500	Yes	Optional	17000	17000	No
+misirimal navajee munoth jain school of architecture	1146	architecture	Female	Yes	Veg/Non veg	36000	12000	6000	5000	3500	500	Yes	Optional	17000	17000	No
+st. Joesph's insitute of technology	1149	Institute	Male 	Yes	Veg/Non veg	24000	14400	--	--	--	--	Yes	Optional	--	18000	Yes
+st. Joesph's insitute of technology	1149	Institute	Female	Yes	Veg/Non veg	24000	14400	--	--	--	--	Yes	Optional	--	18000	Yes
+Arignar Anna Institute of Science and Technology	1201	Institute	Male 	Yes	Veg/Non veg	dividing	18000	3000	--	--	--	Yes	Optional	15000	19500	No
+Arignar Anna Institute of Science and Technology	1201	Institute	Female	Yes	Veg/Non veg	dividing	18000	3000	--	--	--	Yes	Optional	15000	19500	No
+D M I College of Engineering	1202	Engineering	Male 	Yes	Veg/Non veg	39000	20000	--	`--	--	--	Yes	Optional	15000	25000	$
+D M I College of Engineering	1202	Engineering	Female	Yes	Veg/Non veg	39000	20000	--	`--	--	--	Yes	Optional	15000	25000	$
+Kalsar College of Engineering	1204	Engineering	Male 	Yes	Veg/Non veg	28800	7200	2400	5000	--	1000	Yes	Optional	--	18000	$
+Kalsar College of Engineering	1204	Engineering	Female	Yes	Veg/Non veg	28800	7200	2400	5000	--	1000	Yes	Optional	--	18000	$
+Lord Venkateshwarr engineering college	1205	Engineering	Male 	Yes	Veg/Non veg	30000	12000	3300	2000	200	500	Yes	Optional	5000	28000	No
+Lord Venkateshwarr engineering college	1205	Engineering	Female	Yes	Veg/Non veg	30000	12000	3300	2000	200	500	Yes	Optional	5000	28000	No
+Maamallan Institute of Technology	1206	Engineering	Male 	Yes	Veg/Non veg	24000	10800	1800	--	--	1000	Yes	Optional	12000	14000	No
+Maamallan Institute of Technology	1206	Engineering	Female	Yes	Veg/Non veg	24000	10800	1800	--	--	1000	Yes	Optional	12000	14000	No
+Kings engineeing college	1207	Engineering	Male 	Yes	Veg/Non veg	18000	18000	3600	--	--	--	Yes	Optional	18000	20000	$
+Kings engineeing college	1207	Engineering	Female	Yes	Veg/Non veg	18000	18000	3600	--	--	--	Yes	Optional	18000	20000	$
+kanchi pallavan engineering college	1208	Engineering	Male 	Yes	Veg/Non veg	40000	6000	1200	--	--	1000	Yes	Optional	4000	12000	No
+kanchi pallavan engineering college	1208	Engineering	Female	Yes	Veg/Non veg	40000	6000	1200	--	--	1000	Yes	Optional	4000	12000	No
+pallavan college of engineering	1209	Engineering	Male 	Yes	Veg/Non veg	36000	6000	3000	--	--	1000	Yes	Optional	4000	8000	No
+pallavan college of engineering	1209	Engineering	Female	Yes	Veg/Non veg	36000	6000	3000	--	--	1000	Yes	Optional	4000	8000	No
+panimalar engineering college	1210	Engineering	Male 	Yes	Veg/Non veg	50000	--	--	--	--	--	Yes	Optional	--	--	Yes
+panimalar engineering college	1210	Engineering	Female	Yes	Veg/Non veg	50000	--	--	--	--	--	Yes	Optional	--	--	Yes
+rajalakshmi engineering college	1211	Engineering	Male 	Yes	Veg/Non veg	27000	23004	--	--	--	1000	Yes	Optional	27000	27000	Yes
+rajalakshmi engineering college	1211	Engineering	Female	Yes	Veg/Non veg	27000	23004	--	--	--	1000	Yes	Optional	27000	27000	Yes
+rajiv gandhi college of engineering	1212	Engineering	Male 	Yes	Veg/Non veg	25000	17000	3000	5000	--	--	Yes	Optional	6000	25000	$
+rajiv gandhi college of engineering	1212	Engineering	Female	Yes	Veg/Non veg	25000	17000	3000	5000	--	--	Yes	Optional	6000	25000	$
+S K R engineering college	1213	Engineering	Male 	Yes	Veg/Non veg	32000	12000	6000	2000	--	1000	Yes	Optional	10000	20000	$
+S K R engineering college	1213	Engineering	Female	Yes	Veg/Non veg	32000	12000	6000	2000	--	1000	Yes	Optional	10000	20000	$
+sakthi mariamman engineering college	1214	Engineering	Male 	Yes	Veg/Non veg	24000	21600	3600	--	800	--	Yes	Optional	9000	18000	No
+sakthi mariamman engineering college	1214	Engineering	Female	Yes	Veg/Non veg	24000	21600	3600	--	800	--	Yes	Optional	9000	18000	No
+saveetha engineering college	1216	Engineering	Male 	Yes	Veg/Non veg	36000	24000	6000	5000	5000	500	Yes	Optional	27000	27000	No
+saveetha engineering college	1216	Engineering	Female	Yes	Veg/Non veg	36000	24000	6000	5000	5000	500	Yes	Optional	27000	27000	No
+sree sastha institute of engineering and technology	1217	Engineering	Male 	Yes	Veg/Non veg	44400	27600	4800	3000	1500	1000	Yes	Optional	24000	24000	$
+sree sastha institute of engineering and technology	1217	Engineering	Female	Yes	Veg/Non veg	44400	27600	4800	3000	1500	1000	Yes	Optional	24000	24000	$
+sree muthukumaran institute of technology	1218	Institute	Male 	Yes	Veg/Non veg	DIVIDING	24000	3600	7500	1000	500	Yes	Compulsory	7000	25000	$
+sree muthukumaran institute of technology	1218	Institute	Female	Yes	Veg/Non veg	DIVIDING	24000	3600	7500	1000	500	Yes	Compulsory	7000	25000	$
+sri venkateswara college of engineering   	1219	Engineering	Male 	Yes	Veg/Non veg	30000	--	--	15000	30000	--	Yes	Optional	30000	30000	Yes
+sri venkateswara college of engineering   	1219	Engineering	Female	Yes	Veg/Non veg	30000	--	--	15000	30000	--	Yes	Optional	30000	30000	Yes
+srinivasa institute of engineering and technology	1221	Engineering	Male 	Yes	Veg/Non veg	30000	12000	3000	--	5000	--	Yes	Optional	15000	25000	No
+srinivasa institute of engineering and technology	1221	Engineering	Female	Yes	Veg/Non veg	30000	12000	3000	--	5000	--	Yes	Optional	15000	25000	No
+p b college of engineering	1222	Engineering	Male 	Yes	Veg/Non veg	27804	16800	5400	--	--	3000	Yes	Compulsory	23000	23000	$
+p b college of engineering	1222	Engineering	Female	Yes	Veg/Non veg	27804	16800	5400	--	--	3000	Yes	Compulsory	23000	23000	$
+loyala institute of technology	1225	Institute	Male 	Yes	Veg/Non veg	39000	15000	--	--	--	--	Yes	Optional	15000	25000	$
+loyala institute of technology	1225	Institute	Female	Yes	Veg/Non veg	39000	15000	--	--	--	--	Yes	Optional	15000	25000	$
+p t lee chengalvaraya naicker college of engineering and technology	1226	Engineering	Male 	Yes	Veg/Non veg	24000	6000	--	5000	--	--	Yes	Optional	5000	15000	No
+p t lee chengalvaraya naicker college of engineering and technology	1226	Engineering	Female	Yes	Veg/Non veg	24000	6000	--	5000	--	--	Yes	Optional	5000	15000	No
+alpha college of engineering	1228	Engineering	Male 	Yes	Veg/Non veg	18000	20000	--	3000	--	--	Yes	Optional	12000	20000	No
+alpha college of engineering	1228	Engineering	Female	Yes	Veg/Non veg	18000	20000	--	3000	--	--	Yes	Optional	12000	20000	No
+indira institute of engineering and technology	1229	Engineering	Male 	Yes	Veg/Non veg	18000	15000	3300	--	2500	1000	Yes	Optional	5500	18000	No
+indira institute of engineering and technology	1229	Engineering	Female	Yes	Veg/Non veg	18000	15000	3300	--	2500	1000	Yes	Optional	5500	18000	No
+apollo engineering college	1230	Engineering	Male 	Yes	Veg/Non veg	45600	13200	1200	5000	---	200	Yes	Optional	--	22000	No
+apollo engineering college	1230	Engineering	Female	Yes	Veg/Non veg	45600	13200	1200	5000	---	200	Yes	Optional	--	22000	No
+panimalar instituteof technology	1231	Institute	Male 	Yes	Veg/Non veg	50000	-	-	-	-	-	Yes	Optional	--	-	Yes
+panimalar instituteof technology	1231	Institute	Female	Yes	Veg/Non veg	50000	-	-	-	-	-	Yes	Optional	--	-	Yes
+arm college of engineering and technology	1232	Engineering	Male 	Yes	Veg/Non veg	19200	10200	3000	-	1000	500	Yes	Optional	6000	9500	No
+arm college of engineering and technology	1232	Engineering	Female	Yes	Veg/Non veg	19200	10200	3000	-	1000	500	Yes	Optional	6000	9500	No
+adhi college of enginering and technology	1233	Engineering	Male 	Yes	Veg/Non veg	30000	18000	-	-	-	-	Yes	Optional	5000	20000	No
+adhi college of enginering and technology	1233	Engineering	Female	Yes	Veg/Non veg	30000	18000	-	-	-	-	Yes	Optional	5000	20000	No
+indira gandhi college of engineering and technology for women	1234	Engineering	Female	Yes	Veg/Non veg	27000	14400	3600	5000	5000	500	Yes	Optional	8000	25000	No
+jei mathaajee college of engineering	1235	Engineering	Male 	Yes	Veg/Non veg	31200	7800	1200	5000	1000	1000	Yes	Compulsory	2500	18000	No
+jei mathaajee college of engineering	1235	Engineering	Female	Yes	Veg/Non veg	31200	7800	1200	5000	1000	1000	Yes	Compulsory	2500	18000	No
+velammal institute of technology	1237	Institute	Male 	Yes	Veg/Non veg	45000	21000	6000	2000	4000	2000	Yes	Compulsory	7500	25000	No
+velammal institute of technology	1237	Institute	Female	Yes	Veg/Non veg	45000	21000	6000	2000	4000	2000	Yes	Compulsory	7500	25000	No
+grt institute of engineering and technology	1238	Engineering	Male 	Yes	Veg/Non veg	42000	7200	6000	5000	3000	1000	Yes	Optional	7000	24000	No
+grt institute of engineering and technology	1238	Engineering	Female	Yes	Veg/Non veg	42000	7200	6000	5000	3000	1000	Yes	Optional	7000	24000	No
+t.j.s engineering college	1241	Engineering	Male 	Yes	Veg/Non veg	36000	15600	7200	4000	-	-	Yes	Optional	6000	17000	No
+t.j.s engineering college	1241	Engineering	Female	Yes	Veg/Non veg	36000	15600	7200	4000	-	-	Yes	Optional	6000	17000	No
+Sree sastha college of engineering	1242	Engineering	Male 	Yes	Veg/Non veg	44400	27600	4800	3000	1500	1000	Yes	Optional	27000	27000	No
+Sree sastha college of engineering	1242	Engineering	Female	Yes	Veg/Non veg	44400	27600	4800	3000	1500	1000	Yes	Optional	27000	27000	No
+madha institute of engineering and technology	1243	Engineering	Male 	Yes	Veg/Non veg	36000	18000	6000	-	1000	500	Yes	Optional	10000	19000	$
+madha institute of engineering and technology	1243	Engineering	Female	Yes	Veg/Non veg	36000	18000	6000	-	1000	500	Yes	Optional	10000	19000	$
+john bosco engineering college	1245	Engineering	Male 	no	-	-	-	-	-	-	-	Yes	Optional	5000	20000	No
+john bosco engineering college	1245	Engineering	Female	no	-	-	-	-	-	-	-	Yes	Optional	5000	20000	No
+Mohammad Sathak A.J.College of Engg	1301	Engineering	Male 	Yes	Veg/Non veg	33000	20000	4000	-	3000	-	Yes	Compulsory	17000	27000	$
+Mohammad Sathak A.J.College of Engg	1301	Engineering	Female	Yes	Veg/Non veg	33000	20000	4000	-	3000	-	Yes	Compulsory	17000	27000	$
+Anan Institute of Higher Technology	1303	Institute	Male 	Yes	Veg	27000	12000	6000	-	12000	2000	Yes	Compulsory	26000	26000	No
+Anan Institute of Higher Technology	1303	Engineering	Female	Yes	Veg	27000	12000	6000	-	12000	2000	Yes	Compulsory	26000	26000	No
+Easwari Engineering college	1304	Engineering	Male 	Yes	Veg/Non veg	48000	33000	7000	-	10000	3000	Yes	Optional	20000	24000	Yes
+Easwari Engineering college	1304	Engineering	Female	Yes	Veg/Non veg	48000	33000	7000	-	10000	3000	Yes	Optional	20000	24000	Yes
+jeppiaar Engg college	1306	Engineering	Male 	Yes	Veg/Non veg	20400	20400	-	-	-	-	Yes	Optional	-	-	Yes
+jeppiaar Engg college	1306	Engineering	Female	Yes	Veg/Non veg	20400	20400	-	-	-	-	Yes	Optional	-	-	Yes
+Jerusalem College of Engg	1307	Engineering	Male 	Yes	Veg/Non veg	40000	35000	-	5000	-	500	Yes	Compulsory	20000	30000	No
+Jerusalem College of Engg	1307	Engineering	Female	Yes	Veg/Non veg	40000	35000	-	5000	-	500	Yes	Compulsory	20000	30000	No
+Measi Academy of Architecture	1308	Engineering	Male 	Yes	Veg/Non veg	19200	13200	3000	3000	8000	1000	No	-	-	-	$
+Measi Academy of Architecture	1308	Engineering	Female	no	-	-	-	-	-	-	-	-	-	-	-	-
+Meenakshi Sundararajan Engg College	1309	Engineering	Male 	Yes	Veg	18000	6500	-	5000	-	700	No	-	-	-	No
+Meenakshi Sundararajan Engg College	1309	Engineering	Female	no	-	-	-	-	-	-	-	-	-	-	-	-
+Misrimal Navajee Munoth Jain Engg College	1310	Engineering	Male 	Yes	Veg	36000	12000	6000	5000	3500	500	Yes	Optional	17000	17000	$
+Misrimal Navajee Munoth Jain Engg College	1310	Engineering	Female	Yes	Veg	36000	12000	6000	5000	3500	500	Yes	Optional	17000	17000	$
+K.C.G. College of Tech	1311	Engineering	Male 	Yes	Veg/Non veg	33000	48700	-	-	1500	-	Yes	Optional	18000	19500	$
+K.C.G. College of Tech	1311	Engineering	Female	Yes	Veg/Non veg	33000	48700	-	-	1500	-	Yes	Optional	18000	19500	$
+Shree Motilal Kanhaiyalal Fomra Institute of Tech	1313	Institute	Male 	Yes	Veg	36000	32400	-	5000	5000	3000	Yes	Compulsory	28000	28000	$
+Shree Motilal Kanhaiyalal Fomra Institute of Tech	1313	Institute	Female	Yes	Veg	36000	32400	-	5000	5000	3000	Yes	Compulsory	28000	28000	$
+Sri Sivasubramaniya Nadar college of Engg	1315	Engineering	Male 	Yes	Veg/Non veg	28440	42000	-	7500	-	15000	Yes	Optional	35000	-	No
+Sri Sivasubramaniya Nadar college of Engg	1315	Engineering	Female	Yes	Veg/Non veg	28440	42000	-	7500	-	15000	Yes	Optional	35000	-	No
+AGNI College of Tech	1316	Engineering	Male 	Yes	Veg/Non veg	33600	15600	-	-	8800	-	Yes	Compulsory	16000	28000	No
+AGNI College of Tech	1316	Engineering	Female	Yes	Veg/Non veg	33600	15600	-	-	8800	-	Yes	Compulsory	16000	28000	No
+St.Joseph's College of Engg	1317	Engineering	Male 	Yes	Veg/Non veg	24000	14400	-	-	-	-	Yes	Optional	-	18000	Yes
+St.Joseph's College of Engg	1317	Engineering	Female	Yes	Veg/Non veg	24000	14400	-	-	-	-	Yes	Optional	-	18000	Yes
+T.J.Institute of Tech	1318	Institute	Male 	Yes	Veg/Non veg	60000		dividing	5000	-	1000	Yes	Optional	12000	20000	$
+T.J.Institute of Tech	1318	Engineering	Female	Yes	Veg/Non veg	60000		dividing	5000	-	1000	Yes	Optional	12000	20000	$
+Thangavelu Engg college	1319	Engineering	Male 	Yes	Veg/Non veg	60000		dividing	5000	-	1000	Yes	Optional	12000	20000	No
+Thangavelu Engg college	1319	Engineering	Female	Yes	Veg/Non veg	60000		dividing	5000	-	1000	Yes	Optional	12000	20000	No
+S.R.R.Engineering College	1320	Engineering	Male 	Yes	Veg/Non veg	48000	18000	2400	-	-	-	Yes	Optional	-	20000	No
+S.R.R.Engineering College	1320	Engineering	Female	Yes	Veg/Non veg	48000	18000	2400	-	-	-	Yes	Optional	-	20000	No
+Central Institute of Plastics Engg and Tech	1321	Institute	Male 	Yes	Veg/Non veg	21600	8000	4000	1000	-	500	No	-	-	-	No
+Central Institute of Plastics Engg and Tech	1321	Institute	Female	Yes	Veg/Non veg	21600	8000	4000	1000	-	500	No	-	-	-	No
+Dhanalakshmi Srinivasan College of Engg & Tech	1322	Engineering	Male 	Yes	Veg/Non veg	-	55000	-	-	-	-	Yes	Compulsory	6000	30000	Yes
+Dhanalakshmi Srinivasan College of Engg & Tech	1322	Engineering	Female	Yes	Veg/Non veg	-	55000	-	-	-	-	Yes	Compulsory	6000	30000	Yes
+A.C.T College of Engineering and Tech	1323	Engineering	Male 	Yes	Veg/Non veg	27000	14400	3600	5000	5000	500	Yes	Optional	8000	25000	No
+A.C.T College of Engineering and Tech	1323	Engineering	Female	Yes	Veg/Non veg	27000	14400	3600	5000	5000	500	Yes	Optional	8000	25000	No
+Sri Sair Ram Institute of Tech	1324	Institute	Male 	Yes	Veg/Non veg	39600	14400	7200	-	5000	1000	Yes	Compulsory	10000	25000	No
+Sri Sair Ram Institute of Tech	1324	Engineering	Female	Yes	Veg/Non veg	39600	14400	7200	-	5000	1000	Yes	Compulsory	10000	25000	No
+St. Joseph college of Engineering	1325	Engineering	Male 	Yes	Veg/Non veg	36000	12000	-	-	-	-	Yes	Optional	15000	25000	$
+St. Joseph college of Engineering	1325	Engineering	Female	Yes	Veg/Non veg	36000	12000	-	-	-	-	Yes	Optional	15000	25000	$
+The New Royal College of Engg and Tech	1326	Engineering	Male 	Yes	Veg/Non veg	30000	18000	2400	5000	-	1000	Yes	Optional	12000	18000	No
+The New Royal College of Engg and Tech	1326	Engineering	Female	Yes	Veg/Non veg	30000	18000	2400	5000	-	1000	Yes	Optional	12000	18000	No

@@ -1,0 +1,107 @@
+﻿College ID	College Name	Name of principal 	Address	District	Phone Number	E-mail ID	WebSite	Bank A\C no	Bank Name	Distance from HQ	Nearest Railway station
+1202	DMI College of Engineering	Rajasekar	10 Ecr, Near mahabalipuram	Chennai	044-4598309	dmi@gmail.com	www.dmi.com	1321321222	ING Vysya	5 Kms	No
+1204	Kalsar college of engineering	Rajesh	12 Ecr, Near mahabalipuram		044-4548309	kalsar@gmail.com	www.kalsar.com	2321321322	ICICI	2 Kms	Central railway station
+0001	university department of anna university -ceg campus	c. Chellappan	sardar patel road, guindy	chennai	044-22358476	deanceg@annauniv.edu	www.annauniv.edu	--	--	10 Kms	Gunidy / Kasthuribai Nagar
+0002	university department of anna university -act campus	s.sivanesan	sardar patel road, guindy	chennai	044-22359100	deanact@annauniv.edu	www.annauniv.edu	10496972181	State Bank of India	11 Kms	Gunidy / Kasthuribai Nagar
+0003	university department of anna university -sap campus	ranee vedamuthu	sardar patel road, guindy	chennai	044-22201421	raneev@annauniv.edu	www.annauniv.edu/sap	10496977724	State Bank of India	9 Kms	Gunidy / Kasthuribai Nagar
+0004	university department of anna university -mit campus	s thamarai selvi	chrompet, tambram (Tk)	kancheepuram	044-22516002	dean@mitindia.edu	www.annauniv.edu/mitindia.edu	--	--	60 Kms	Chrompet
+1013	university college of engineering, Villupuram	r senthil	kakuppam villupuram	villupuram	041-46224500	ucev_auc@yahoo.com	www.aucev.edu.in	30466389286	State Bank of India	7 Kms	Villpuram Jn
+1014	university college of engineering, Tindivanam	k anbukumaran	melpakkam, tindivanam	villupuram	041-47224477	annauniv.ucet@gmail.com	www.annauniv.edu	30946704066	State Bank of India	42 Kms	Tindivanam
+1015	university college of engineering, arni	g senthil kumar	arni to devikapuram road	thiruvannamalai	041-73244401	annauniv.ucea@gmail.com	www.annauniv.edu	30892980646	State Bank of India	60 Kms	Arni Road Jn
+1026	university college of engineering, kanchipuram	t n shanmugam	Nh-4, chennai bangalore highway	kancheepuram	9244900630	ucekdean@gmail.com	--	131801000010885	Indian Overseas Bank	9 Kms	Kancheepuram
+1101	aalim muhammed salegh college of engineering	m afzal ali baig	nizara educational campus, avadi iaf	thiruvallur	044-26842086	info@aalimec.ac.in	www.aalimec.ac.in	777538896	Indian Bank	20 Kms	Pattabiram Military Siding
+1102	bahjarang engineering college	s neduncheliyan	near avadi, veppampattu 	thiruvallur	044-27624664	bhajarang2000@yahoo.com	www.bharajangenggcollege.com	01651010006980	Oriental bank of commerce	12Kms	Veppampattu
+1104	pallava raja college of engineering	e anbalagan	kolivakkam, iyyengarkulam post	kancheepuram	044-27293099	prce.kanchi@gmail.com	www.pallavaraja.edu.in	25730110001677	UCO Bk	8 Kms	Kancheepuram
+1006	jaya engineering college	krishnan vijayaraghavan	m.t.h road 	thiruvallur	044-26390041	info@jec.ac.in	www.jec.ac.in	146902000000004	Indian Overseas Bank	15 Kms	Nemilichery
+1107	jaya institute of technology	g hemanthkumar	Tiruvallur-tiruttani NH Road	thiruvallur 	044-27874111	lcrcet@gmail.com	www.icrcet.ac.in	146902000000127	Indian Overseas Bank	17 Kms	Tiruvallur
+1108	Magna College of Engineering	i s stephan thangaiah	Redhill - tiruvallur high road	thiruvallur 	044-27626301	magnace@vsnl.net	www.magnace.com	30426940391	State Bank of India	18 Kms	Chennai Central
+1110	Prathyusha institute of technology and management	p m beulah devamalar	poonamallee-thiruvallur rd	thiruvallur 	044-37673767	principal@prathyusha.edu.in	www.prathyusha.edu.in	867786905	Indian Bank	10 Kms	Tiruvallur
+1112	R M D Engineering College	k. Sivaram	GNT road	thiruvallur 	044-27925562	rmdecp@gmail.com	www.rmd.ac.in	CD-72	Indian Overseas Bank	50 kms	Kavaraipettai
+1113	R M K Engineering College	Elwin chandra monie	RSM nagar Gummidipoondi	thiruvallur 	044-27925102	principal@rmkec.ac.in	www.rmkec.ac.in	CD-99	Indian Overseas Bank	50 kms	Kavaraipettai
+1114	S A Engineeing College	S Suyambazhahan	poonamallee-avadi road	thiruvallur 	044-26801999	saec@saec.ac.in	www.saec.ac.in	20060844659	Allahabad bk	23 Kms	Avadi
+1115	Sriram Engineering college	g nalankilli	89 Perumalpattu	thiruvallur 	044-27689364	sriraminfo@yahoo.com	www.sriramtrust.org	35589	City Union Bank	10 Kms	Veppampattu
+1116	Sri Venkateswara College of Engineering and Technology	p ramu	Thirupachur	thiruvallur 	044-27664444	svcet@rediffmail.com	www.sriventech.ac.in	569069793	Indian Bank	3 Kms	Thiruvallur
+1118	Vel tech multi tech Dr.rangarajan Dr.sakunthala Engineering College	v rajamani	42 Avadi Alamathi Road	thiruvallur 	044-26841061	veltech@vsnl.com	www.velmultimedia.com	380200301000050	Vijaya Bank	20 Kms	Avadi
+1120	Velammal Engineering College	n duraipandian	velammal nagar ambattur-redhills road	thiruvallur 	044-26591860	velammal@velammal.org	www.velammal.org	169501000003111	Indian Overseas Bank	30 Kms	Ambattur
+1121	Sri Venkateswara institute of Science and Technology	k duraivelu	kolundhalur	thiruvallur 	044-27666669	svis_tech@yahoo.com	www.svis-tech.com	197501000001269	Indian Overseas Bank	2 Kms	Tiruvallur
+1122	Vel tech High tech Dr.rangarajan Dr.sakunthala Engineering College	d rajinigirinath	Avadi Alamathi Road	thiruvallur 	044-26840181	veltech@vsnl.com	www.velhightech.com	380200301000048	Vijaya bank	20 Kms	Avadi
+1123	Gojan School of Business and Technology	r narayanan	80 Feet road redhills	thiruvallur 	044-26311001	nrajan99@gmail.com	www.gojaneducation.com	598010100034265	Axis bank	24 Kms	Perambur
+1124	SAMS College of Engineering and Technology	h naganna	82 panapakkam 	thiruvallur 	044-42173160	samstudy@vsnl.com	www.samsengineering.org	1157129000000550	Karur Vyasya Bank	25 Kms	Thiruvallur
+1125	PMR Engineering College	r palson kennedy	adayalampattu, maduravoyil	thiruvallur 	044-65155925	principal.pmrengg@gmail.com	www.pmreng.com	718901455	Indian Bank	15 Kms	Ambattur
+1126	J N N Institute of engineering	s arul	90 chennai periyapalaym high road	thiruvallur 	044-27629611	jnnie@jnnie.in	www.jnnie.in	32022	Indian Overseas Bank	28 Kms	Ponneri
+1127	St. Peter's College of Engineering and Technology	s selvan	College Road Avadi	thiruvallur 	044-26558089	spcet2008@gmail.com	www.spect.ac.in	780468796	Indian Bank	25 Kms	Annanur
+1128	r m k college of engineering and technology	e b perumal pillai	r s m nagar puduvoyal	thiruvallur 	044-33303555	prinicipal@rmkcet.ac.in	www.rmkcet.ac.in	41001	Indian Overseas Bank	40 Kms	Kavaripettai
+1130	marg institute of design and Architecture swarnabhoomi (midas)	jaffer aa khan	marg swarnabhoomi velur village	kancheepuram	044-24541115	admin@midas.ac.in	www.midas.ac.in	436011003344	ING Vyasya Bank	75 Kms	Maduranthagam
+1131	Vel Tech	e n ganesh	60 Avadi, Vellanur	thiruvallur 	044-268424246	veltech@vsnl.com	www.veltechengg.com	380200301000078	Vijaya Bank	20 Kms	Avadi
+1132	rajalakshmi school of architecture	kalaiselvi	rajalakshmi nagar	kancheepuram	044-37181111	admin@rajalakshmi.edu.in	www.architecture.rajalakshmi.org	6076002100000576	Punjab National Bank	38 Kms	Chennai Central
+1133	annai veilankanni's college or engineering	r jaganathan	33 gandhi rd, nedunkundram	kancheepuram	044-22790022	dev@annaiveilankannis.com	www.annaiveilankannis.com	030702000003222	Indian Overseas Bank	18.5 Kms	Perungalathur
+1134	surya school of architecture	mathan kannan	GST road, vikravandi	villupuram	041-46233140	suryaschoolofarch@gmail.com	www.suryagroup.edu.in	952981885	Indian Bank	20 Kms	Vikravandi
+1135	aalim muhammed salegh academy of architecture	umachakkaravarthy	nizara educational campus, avadi iaf	thiruvallur	044-26842333	ams.aa.tn37@gmail.com	www.amsarch.ac.in	067500101005207	Corporation Bank	20 Kms	Pattabiram Military Siding
+1136	vedhantha institute of technology	p.selvaraj	vedhantha nagar techichy chennai nh 45, padur	villupuram	041-49209609	vedhantha_eng@yahoo.com	www.vedhantha.edu.in	0284073000000179	South Indian Bank	24 Kms	Ulundurpet
+1137	annai mira college of engineering and technology	g vedagiri	NH-46, chennai- bengaluru highways	vellore	041-72292925	amcet.rtet@gmail.com	www.amcet.in	316109000194220	City Union Bank	7 Kms	Katpadi
+1138	da vinci school of design and architecture	m m surendran	rajiv gandhi salai,	kancheepuram	044-66041414	tjarch2011@sify.com	www.davinciarchtecture.edu.in	6084359752	Indian Bank	10 Kms	Thiruvanmiyur
+1140	jeppiaar institute of technology	v kannan	jeppiaar nagar, kunnam village	kancheepuram	044-27159000	office@jeppiaarinstitute.org	www.jeppiaarinstitute.org	971001044	Indian Bank	20 Kms	Wallajbad
+1141	r v s padhmavathy college of engineering and technology	t sasimurugan	13 sethilpakkam village 	thiruvallur	044-37906060	info@rvschennai.com	www.rvschennai.com	6009967204	Indian Bank	35 Kms	Kavaraipettai
+1142	sri renugambal college of architecture	g p sathish	c c road, ettivadi, polur	thiruvannamalai	041-81222669	sretpolur@gmail.com	www.srcearch.com	211605000001	ICICI Bank	39 Kms	Polur
+1143	kumaran institute of technology	s thirumalai	near nandiambakkam railway station 	thiruvallur	044-27932091	kitchennai@yahoo.com	www.kitchennai.org	054602000001414	Indian Overseas Bank	8 Kms	Nandiambakkam
+1144	rvs padmavathy school of architecture	aravamudhan a s	13 sethilpakkam village 	thiruvallur	044-37906060	rvspsoa@gmail.com	www.rvschennai.com	6182273329	Indian Bank	35 Kms	Kavaraipettai
+1145	anand school of architecture	arevu chelvi sundarom	kalasalingam nagar	kancheepuram	044-27471360	anandschoolfarchitecture@gmail.com	--	6051632084	Indian Bank	20 Kms	Tambaram
+1146	misirimal navajee munoth jain school of architecture	k anantha narayana	rajiv gandhi salai,	kancheepuram	044-24960292	mnmjsa@gmail.com	--	6076684502	Indian Bank	10 Kms	Thiruvanmiyur
+1149	st. Joesph's insitute of technology	r ravichandran	old mamallapuram road	kancheepuram	044-24503132	stjoesphstechnology@stjosephstechnology.ac.in	www.stjosephstechnology.ac.in	974077237	Indian Bank	60 Kms	Tambaram
+1201	Arignar Anna Institute of Science and Technology	Bhagwan Shree Ram	G.Jayaraman Nagar-Pennalur	Kancheepuram	044-27162344	info@arignaranna.org	www.arignaranna.org	3025945068	Central Bank of indian	24 Kms	Chennai Central
+1202	D M I College of Engineering	paul rodrigues	Nazrethpet, Palanchur	Kancheepuram	044-26810642	dmichennai@yahoo.co.in	www.dmice.ac.in	3173046366	Central Bank of indian	20 Kms	Chennai Central
+1204	Kalsar College of Engineering	a franklin jebaraj	109 Valarpuram, Mannur	Kancheepuram	044-24994666	kalsar_204@yahoo.co.in	www.kalsar.org	05172000000587	HDFC Bank	25 Kms	Thiruvallur
+1205	Lord Venkateshwarr engineering college	s gurulingam	puliyambakkam, walajabad via	Kancheepuram	044-27258047	lvecollege2001@gmail.com	www.lvengcol.com	6022411898	Indian Bank	18 Kms	Walajabad
+1206	Maamallan Institute of Technology	J Abbas Mohaideen	Maamallan Nagar, Vadamangalam	Kancheepuram	044-27107071	maamallancollege@rediffmail.com	www.maamallancollege.com	774844308	Indian Bank	36 Kms	Thiruvallur
+1207	Kings engineeing college	a v mayakkannan	chennai-bangalore highways	kancheepuram	044-71224400	principal@kingsengineeringcollege.in	www.kingsengineeringcollege.in	30419256944	State Bank of India	34 Kms	Chennai Central
+1208	kanchi pallavan engineering college	t k gopinathan	iyyengarkulam, kolivakkam	kancheepuram	044-27242223	kpec_principal@rediffmail.com	www.kanchi-pallavan.org.in	484435430	Indian Bank	10 Kms	Kancheepuram
+1209	pallavan college of engineering	k m damodaran	thimmasamudram	kancheepuram	044-27277967	pce_kanchi@rediffmail.com	www.pallavan.edu.in	04810100007851	UCO Bk	5 Kms	Kancheepuram
+1210	panimalar engineering college	k mani	bangalore trunk road	thiruvallur 	044-26490404	info@panimalar.ac.in	www.panimalar.ac.in	01570200001941	UCO Bk	20 Kms	Chennai Central
+1211	rajalakshmi engineering college	g thanigaiyarasu	rajalakshmi nagar, chennai- bangalore highways	kancheepuram	044-37181111	admin@rajalakshmi.edu.in	www.rajalakshmi.org	778660439	Indian Bank	38 Kms	Chennai Central
+1212	rajiv gandhi college of engineering	h ranganathan	nemili, valarpuram	kancheepuram	044-27107145	prinicipal_rgce@yahoo.co.in	www.rgcesri.org	1384002100014738	Punjab National Bank	40 Kms	Tiruvallur
+1213	S K R engineering college	m senthil kumar	nazarathpet, 2kms from poonamallee	thiruvallur	044-26494205	skrenggc@yahoo.co.in	www.skrec.org	218109000145182	City Union Bank	18 Kms	Egmore/ Central
+1214	sakthi mariamman engineering college	s ramakrishnan	narayanasamy nagar, 55 thandalam	kancheepuram	9244900702	smecollege@gmail.com	www.smecollege.edu	3129013694	Central Bank of indian	30 Kms	Gunidy / Kasthuribai Nagar
+1216	saveetha engineering college	r venkatasamy	saveetha nagar, thandalam,	kancheepuram	044-66726690	prinicipal@saveetha.ac.in	www.saveetha.ac.in	514390053	Indian Bank	20 Kms	Avadi
+1217	sree sastha institute of engineering and technology	r varatharajan	sree sastha nagar, chennai bangalore highway	thiruvallur	044-26810114	ssiet@eth.net	www.sasthaenggcollege.edu	795886853	Indian Bank	15 Kms	Avadi
+1218	sree muthukumaran institute of technology	r m suresh	chikkarayapuram, kunrathur, near mangadu	kancheepuram	044-29301192	smitcollege1996@gmail.com	www.smit.edu.in	778927825	Indian Bank	40 Kms	Gunidy / Kasthuribai Nagar
+1219	sri venkateswara college of engineering   	m srivanandham	post bag no. 1, pennalur, irungattukottai post, sriperambudur taluk,	kancheepuram	044-27152000	acm@svce.ac.in	www.svce.ac.in	467302284	Indian Bank	37 Kms	Chennai Central
+1221	srinivasa institute of engineering and technology	t. ravi	poonamallee bye pass rd, poonamallee	thiruvallur	044-26492525	sietcollege@hotmail.com	www.siet.edu.in	1469175	Indian Overseas Bank	25 Kms	Avadi
+1222	p b college of engineering	c b lakshmikantha	chennai-bangalore highways	kancheepuram	044-27198033	pbce@pbce.in	www.pbce.in	16100200000875	Federal Bank	25 Kms	Gunidy / Kasthuribai Nagar
+1225	loyala institute of technology	v srinivasa raghavan	mevalurkuppam b village palanchur	kancheepuram	044-26811541	litprincipaloffice@gmail.com	www.litedu.in	729849117	Indian Bank	20 Kms	Chennai Central
+1226	p t lee chengalvaraya naicker college of engineering and technology	m venkararaman	chengalvaraya nagar	kancheepuram	9841180433	ptleecncet1226@gmail.com	www.ptleecncet.org	708389923	Indian Bank	13 kms	thirumalpur
+1228	alpha college of engineering	k raja	34, udavar koil street, thirumazhisai, poonamallee	thiruvallur	044-26495211	engineering@alphagroup.edu	www.alphagroup.edu	12330200024260	Federal Bank	15 Kms	Gunidy / Kasthuribai Nagar
+1229	indira institute of engineering and technology	a prabakaran	1, vgr garden, vgr nagar, pandur	thiruvallur	9841735858	engg.principal@indraeducational.org	www.indiraeducational.org	57102000002505	Indian Overseas Bank	5 Kms	Thiruvallur
+1230	apollo engineering college	d balaji	near queensland, poonamallee	kancheepuram	9444309536	aec1230@gmail.com	www.apolloengg.in	27605004096	ICICI Bank	25 Kms	Gunidy / Kasthuribai Nagar
+1231	panimalar instituteof technology	t jayanthy	391 bangalore trunk road, varadharajapuram, nazarethpet, poonamallee	thiruvallur	044-26491113	info@pit.ac.in	www.pit.ac.in	1570210000465	UCO Bk	20 Kms	Chennai Central
+1232	arm college of engineering and technology	l rajaji	maraimalai nagar, 	kancheepuram	044-37411244	admin@armenggcollege.com	www.armenggcollege.com	789072535	Indian Bank	30 Kms	maraimlai nagar
+1233	adhi college of enginering and technology	a devaraju	6 mun adhi nagarm sanakarapuram, near oragadam,	kancheepuram	044-27290096	adhicollege@yahoo.com	www.adhicollege.com	122713552	Karur Vyasya Bank	20 Kms	Wallajbad
+1234	indira gandhi college of engineering and technology for women	v p sivhakumaar	chengalpattu kancheepuram high road, athur post,	kancheepuram	044-27493419	igicet@yahoo.com	www.igcet.com	800786571	Indian Bank	35 Kms	chengalpattu
+1235	jei mathaajee college of engineering	v. palvannan	kancheepuram to arakkonam road, siruvakkam, vishankandikuppam	kancheepuram	9362333180	jmce.bose@yahoo.com	www.jmcebose.org	105150050800446	tamilnadu mercantile bank	8 Kms	Kancheepuram
+1237	velammal institute of technology	t chandrasekar	chennai kolkatta high way ponneri	thiruvallur	044-30446300	vitprincipal@yahoo.com	www.velammalit.com	3777	Indian Overseas Bank	28 Kms	Ponneri
+1238	grt institute of engineering and technology	s. arumugam	grt mahalakshmi nagar, chennai tirupath higway, tiruttani	thiruvallur	044-27885400	grtedu@gmail.com	www.grt.edu.in	913010032171552	Axis bank	35 Kms	tiruttani
+1241	t.j.s engineering college	thirunavukkarasu k	t j s nagar, peruviyal near kavaraipettai, gummidipoondi	thiruvallur	044-27900080	tjsivanandam@ymail.com	www.tjsenggcollege.com	65101089801	State Bank of India	35 Kms	Kavaraipettai
+1242	Sree sastha college of engineering	s arul	chembarambakkam village road	thiruvallur	044-26810121	principal@sasthaengg.com	www.sasthaengg.com	858067991	Indian Bank	15 Kms	Avadi
+1243	madha institute of engineering and technology	p suresh mohan kumar	erandamkattalai, anakapurthur	kancheepuram	044-28140212	prinicipal448@gmail.com	www.madhaengineeringandtechnology.cpm	051211023802	Dena bank	25 Kms	pallavaram
+1245	john bosco engineering college	sivaprakasam	tiruvallur railway station	thiruvallur	044-276991303	chairmanjbc@gmail.com	www.johnbosco.ac.in	24576	Indian Overseas Bank	1 Km	Tiruvallur
+1301	Mohammad Sathak A.J.College of Engg	Hasan Shaikh	rajiv gandhi Rd, IT-Park Siruseri	kancheepuram	9244903602	msajce.office@gmail.com	www.msajce-edu.in	778794076	Indian bank	25 Kms	Thiruvallur
+1303	Anan Institute of Higher Technology	T.A.Raghavendiran	kalasalingam nagar,OMR,Kancheepuram	kancheepuram	044-27471330	aiht_anand@yahoo.co.in	www.aiht.ac.in	778638095	Indian bank	20 Kms	Tambaram
+1304	Easwari Engineering college	M.Sekar	Bharathi Salai,Ramapuram	Thiruvallur	044-22495420	eecw@vsnl.com	www.srmeaswari.ac.in	777722502	Indian Bank	15 Kms	Guindy
+1306	jeppiaar Engg college	Sushil Lal Das	Rajiv Gandhi Salai,Sholinganallur	kancheepuram	044-24502818	office@jeppiaarinstitute.org	www.jeppiaarcollege.org	778652510	Indian Bank	15 Kms	Tambaram
+1307	Jerusalem College of Engg	G.Sambandan	Narayanapuram,pallikaranai	kancheepuram	044-22461404	jerusalemengg@gmail.com	www.jerusalemengg.ac.in	39580121000000-12	pnb	20 Kms	Velacherry
+1308	Measi Academy of Architecture	N.Altaf Ahmed	7,peters Rd, New college Campus	Chennai	044-28350445	archeasi@gmail.com	www.measiarch.in	59038	IOB	5 Kms	Chennai Central
+1309	Meenakshi Sundararajan Engg College	K.S.Babai	No.363,Arcot Rd,Kodambakkam,Chennai	Chennai	044-24801636	principal@msec.edu.in	www.msec.edu.in	10710433057	SBI	8 Kms	Kodambakkam
+1310	Misrimal Navajee Munoth Jain Engg College	K.Thanasekaran	Jyothi Ngr,Thorapakkam,	kancheepuram	044-24960101	mnmjec@m4.vsnl.net.in	www.mnmjec.ac.in	466327255	Indian Bank	10 Kms	Thiruvanmiyur
+1311	K.C.G. College of Tech	T.Rengaraj	Rajiv Gandhi Salai,Karapakkam,	kancheepuram	044-24503232	prinipal@kcgcollege.com	www.kcgcollege.ac.in	52630101002001-0	Union Bank of Inia	65 Kms	Tambaram,Guindy
+1313	Shree Motilal Kanhaiyalal Fomra Institute of Tech	Ushaa Eswaran	OMR, IT Highway	kancheepuram	044-32986300	principal@smkfomra.net	www.smkfomra.net	4622000100958200	Karnataka Bank	70 Kms	Tambaram
+1315	Sri Sivasubramaniya Nadar college of Engg	S.Salivahanan	Rajiv /gandhi Salai(OMR),Thiruporur	kancheepuram	044-27469700	salivahanans@ssn.edu.in	www.sssn.edu.in	30412833534	SBI	75 Kms	Chennai Central
+1316	AGNI College of Tech	S.R.R. Senthilkumar	Thalambur,OMR,	kancheepuram	044-32903293	mail@act.edu.in	www.act.edu.in	0-83010100537742	Axis bank	60 Kms	Tambaram
+1317	St.Joseph's College of Engg	Jolly Abraham	OMR,Sholinganallur	kancheepuram	044-24501060	jprstjosephs@stjoseph.ac.in	www.stjosephs.ac.in	779430233	Indian Bank	60 Kms	Tambaram
+1318	T.J.Institute of Tech	K.Raveendran	Rajiv Gandhi Salai	kancheepuram	044-66041414	tjinstitute@sify.com	www.thangavelucolleges.com	6046106126	Indian Bank	10 Kms	Thiruvanmiyur
+1319	Thangavelu Engg college	S.Jyachadran	Rajiv Gandhi Salai	kancheepuram	044-66041234	tec319@sify.com	www.thangavelucolleges.com	801020110000119	Bank of India	10 Kms	Thiruvanmiyur
+1320	S.R.R.Engineering College	T.Sasikala	Jeppiaar Ngr,OMR,(I.T.Highway)	Kancheepuram	044-27474839	admin@srredu.in	www.srredu.in	774842720	Indian Bank	80 Kms	Tambaram
+1321	Central Institute of Plastics Engg and Tech	K.Palanivelu	T.V.K.Industrial Estate ,guindy	Chennai	044-22254701-06	cipetchn@eth.net	www.ciet.gov.in	10565622389	SBI	10 Kms	Guindy
+1322	Dhanalakshmi Srinivasan College of Engg & Tech	R.Ponraj	ECR,Mamallapuram	Kancheepuram	044-27442844	dscet@yahoo.com	www.dscet.ac.in	778485092	Indian Bank	45 Kms	Chengelpattu
+1323	A.C.T College of Engineering and Tech	M.Selvam	Nelcoy,Maduranthagam	Kancheepuram	044-27293896	actcet.nelvoy@gmail.com	www.actcet.com	0-291073000000074	South Indian Bank	36 Kms	Chengelpattu
+1324	Sri Sair Ram Institute of Tech	K.Palani kumar	Sai Leo Ngr,West Tambaram	Kancheepuram	044-22512111	sairam@sairamit.edu.in	www.sairamit.edu.in	3022658066	Central Bank of indian	35 Kms	Tambaram
+1325	St. Joseph college of Engineering	M.A.Leo Vijilious	Near Toll Plaza , Sriperumbuur	kancheepuram	9444405813	sjce.mi@gmail.com	www.stjoseph.ac.in	3177686891	Central Bank of indian	1 Kms	Chennai Central
+1326	The New Royal College of Engg and Tech	T.Chandrasekar	ECR,Poonjeri,Mamallapuram	kancheepuram	9629992670	principalrocet@gmail.com	www.rocet.edu.in	00-5001000024047	IOB	68 Kms	Chengelpet

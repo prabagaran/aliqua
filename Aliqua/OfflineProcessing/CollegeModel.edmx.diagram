@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c8ecc5e5e79b4bc1887a7ba57cfc9691" Name="Diagram1">
+        <EntityTypeShape EntityType="CollegeDBModel.EntityPhoneInfo" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.EntityWebsiteInfo" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.LocationType" Width="1.5" PointX="3.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.NearbyPlace" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.CollegeInfo" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CollegeDBModel.DepartmentInfo" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="CollegeDBModel.FK_EntityPhoneInfo_CollegeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK_EntityWebsiteInfo_CollegeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK_NearbyPlaces_LocationTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK_NearbyPlaces_CollegeInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK__Departmen__Colle__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="CollegeDBModel.FK__Departmen__Colle__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

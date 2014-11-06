@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="CollegeDBContext-Web.config Connection String" description="CollegeDBContext Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/DataModel.csdl|res://*/DataModel.ssdl|res://*/DataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=P3NWPLSK12SQL-v06.shr.prod.phx3.secureserver.net;initial catalog=aliquadb;persist security info=True;user id=aliquadb;password=Aliqua@123;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prabat\\Documents\\Visual\ Studio\ 2012\\Projects\\Aliqua\\Aliqua\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CollegeDBContext']/@connectionString" />
+  </parameter>
+  <parameter name="AliquaEntitiesContext-Web.config Connection String" description="AliquaEntitiesContext Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/CollegeModel.csdl|res://*/CollegeModel.ssdl|res://*/CollegeModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=P3NWPLSK12SQL-v06.shr.prod.phx3.secureserver.net;initial catalog=aliquadb;persist security info=True;user id=aliquadb;password=Aliqua@123;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prabat\\Documents\\Visual\ Studio\ 2012\\Projects\\Aliqua\\Aliqua\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AliquaEntitiesContext']/@connectionString" />
+  </parameter>
+</parameters>
