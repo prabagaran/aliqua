@@ -31,3 +31,20 @@ C:\Users\prabat\Documents\Visual Studio 2012\Projects\Aliqua\Aliqua\bin\Microsof
 C:\Users\prabat\Documents\Visual Studio 2012\Projects\Aliqua\Aliqua\obj\Debug\WebApplication1.dll
 C:\Users\prabat\Documents\Visual Studio 2012\Projects\Aliqua\Aliqua\obj\Debug\WebApplication1.pdb
 C:\Users\prabat\Documents\Visual Studio 2012\Projects\Aliqua\Aliqua\obj\Debug\Aliqua.csprojResolveAssemblyReference.cache
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\WebApplication1.dll
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\WebApplication1.pdb
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\EntityFramework.dll
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\EntityFramework.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.Core.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\obj\Debug\Aliqua.csprojResolveAssemblyReference.cache
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\obj\Debug\WebApplication1.dll
+C:\Users\prabat\Documents\Gerrit\aliqua\Aliqua\Aliqua\obj\Debug\WebApplication1.pdb
