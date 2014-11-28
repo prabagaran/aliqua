@@ -12,14 +12,8 @@ namespace WebApplication1
     using System;
     using System.Collections.Generic;
     
-    public partial class NearbyPlace
+    public partial class Table
     {
-        public string EntityId { get; set; }
-        public string Type { get; set; }
-        public string LocationName { get; set; }
-        public string Distance { get; set; }
-    
-        public virtual LocationType LocationType { get; set; }
-        public virtual CollegeInfo CollegeInfo { get; set; }
+        public int Id { get; set; }
     }
 }

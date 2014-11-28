@@ -20,6 +20,7 @@ namespace WebApplication1
             this.EntityWebsiteInfoes = new HashSet<EntityWebsiteInfo>();
             this.NearbyPlaces = new HashSet<NearbyPlace>();
             this.DepartmentInfoes = new HashSet<DepartmentInfo>();
+            this.tagtables = new HashSet<tagtable>();
         }
     
         public string Id { get; set; }
@@ -34,5 +35,6 @@ namespace WebApplication1
         public virtual ICollection<EntityWebsiteInfo> EntityWebsiteInfoes { get; set; }
         public virtual ICollection<NearbyPlace> NearbyPlaces { get; set; }
         public virtual ICollection<DepartmentInfo> DepartmentInfoes { get; set; }
+        public virtual ICollection<tagtable> tagtables { get; set; }
     }
 }

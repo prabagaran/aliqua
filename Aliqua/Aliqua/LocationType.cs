@@ -19,7 +19,7 @@ namespace WebApplication1
             this.NearbyPlaces = new HashSet<NearbyPlace>();
         }
     
-        public string LocationType1 { get; set; }
+        public string LType { get; set; }
     
         public virtual ICollection<NearbyPlace> NearbyPlaces { get; set; }
     }

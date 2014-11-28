@@ -399,6 +399,18 @@
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
+    <Compile Include="Table.cs">
+      <DependentUpon>CollegeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Table_1.cs">
+      <DependentUpon>CollegeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Table_2.cs">
+      <DependentUpon>CollegeModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tagtable.cs">
+      <DependentUpon>CollegeModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
