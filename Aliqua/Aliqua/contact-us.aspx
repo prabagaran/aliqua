@@ -6,6 +6,7 @@
    <div class="container">
       <!-- aside -->
       <aside>
+	  <!--
          <h3>Categories</h3>
          <ul class="categories">
             <li><span><a href="#">Programs</a></span></li>
@@ -39,11 +40,14 @@
                Uis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae. </li>
          </ul>
       </aside>
-      <!-- content -->
+      -->
+	  <!-- content -->
       <section id="content">
-         <div id="banner">
+         <!--
+		 <div id="banner">
             <h2>Professional <span>Online Education <span>Since 1992</span></span></h2>
          </div>
+-->
          <div class="inside">
             <h2>Our <span>Contacts</span></h2>
             <div class="address">
