@@ -51,13 +51,13 @@
                     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Id" DataSourceID="EntityDataSource1" CellPadding="4" ForeColor="#333333" GridLines="None">
                         <AlternatingRowStyle BackColor="White" />
                         <Columns>
-                          <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+                            <asp:BoundField DataField="Id" HeaderText="Id" ReadOnly="True" SortExpression="Id" />
+                            <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
                             <asp:BoundField DataField="Principal_Name" HeaderText="Principal_Name" SortExpression="Principal_Name" />
                             <asp:BoundField DataField="Address" HeaderText="Address" SortExpression="Address" />
                             <asp:BoundField DataField="District" HeaderText="District" SortExpression="District" />
                             <asp:BoundField DataField="BankAccount" HeaderText="BankAccount" SortExpression="BankAccount" />
                             <asp:BoundField DataField="BankName" HeaderText="BankName" SortExpression="BankName" />
-                            
                             <asp:TemplateField HeaderText="Department">
                                 <ItemTemplate>
                                     <asp:GridView ID="GridView2" runat="server" AutoGenerateColumns="False" DataSource='<%# Eval("DepartmentInfoes") %>'>
@@ -102,6 +102,5 @@
           </section>
        </div>
     </div>
-    <script type="text/javascript"> Cufon.now(); </script> 
-    
+    <script type="text/javascript"> Cufon.now(); </script>    
 </asp:Content>

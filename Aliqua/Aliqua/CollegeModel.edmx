@@ -4,45 +4,33 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="aliquadbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityContainer Name="aliquadbModelStoreContainer">
-          <EntitySet Name="EntityPhoneInfo" EntityType="aliquadbModel.Store.EntityPhoneInfo" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="EntityWebsiteInfo" EntityType="aliquadbModel.Store.EntityWebsiteInfo" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="LocationTypes" EntityType="aliquadbModel.Store.LocationTypes" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="NearbyPlaces" EntityType="aliquadbModel.Store.NearbyPlaces" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="Table_1" EntityType="aliquadbModel.Store.Table_1" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="Table_2" EntityType="aliquadbModel.Store.Table_2" store:Type="Tables" Schema="aliquadb" />
-          <EntitySet Name="CollegeInfo" EntityType="aliquadbModel.Store.CollegeInfo" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="DepartmentInfo" EntityType="aliquadbModel.Store.DepartmentInfo" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Table" EntityType="aliquadbModel.Store.Table" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="tagtable" EntityType="aliquadbModel.Store.tagtable" store:Type="Tables" Schema="dbo" />
-          <AssociationSet Name="FK_DepartmentInfo_CollegeInfo" Association="aliquadbModel.Store.FK_DepartmentInfo_CollegeInfo">
+      <Schema Namespace="CollegeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="CollegeModelStoreContainer">
+          <EntitySet Name="EntityPhoneInfo" EntityType="CollegeModel.Store.EntityPhoneInfo" store:Type="Tables" Schema="aliquadb" />
+          <EntitySet Name="EntityWebsiteInfo" EntityType="CollegeModel.Store.EntityWebsiteInfo" store:Type="Tables" Schema="aliquadb" />
+          <EntitySet Name="LocationTypes" EntityType="CollegeModel.Store.LocationTypes" store:Type="Tables" Schema="aliquadb" />
+          <EntitySet Name="NearbyPlaces" EntityType="CollegeModel.Store.NearbyPlaces" store:Type="Tables" Schema="aliquadb" />
+          <EntitySet Name="CollegeInfo" EntityType="CollegeModel.Store.CollegeInfo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DepartmentInfo" EntityType="CollegeModel.Store.DepartmentInfo" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_DepartmentInfo_CollegeInfo" Association="CollegeModel.Store.FK_DepartmentInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfo" />
             <End Role="DepartmentInfo" EntitySet="DepartmentInfo" />
           </AssociationSet>
-          <AssociationSet Name="FK_EntityPhoneInfo_CollegeInfo" Association="aliquadbModel.Store.FK_EntityPhoneInfo_CollegeInfo">
+          <AssociationSet Name="FK_EntityPhoneInfo_CollegeInfo" Association="CollegeModel.Store.FK_EntityPhoneInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfo" />
             <End Role="EntityPhoneInfo" EntitySet="EntityPhoneInfo" />
           </AssociationSet>
-          <AssociationSet Name="FK_EntityWebsiteInfo_CollegeInfo" Association="aliquadbModel.Store.FK_EntityWebsiteInfo_CollegeInfo">
+          <AssociationSet Name="FK_EntityWebsiteInfo_CollegeInfo" Association="CollegeModel.Store.FK_EntityWebsiteInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfo" />
             <End Role="EntityWebsiteInfo" EntitySet="EntityWebsiteInfo" />
           </AssociationSet>
-          <AssociationSet Name="FK_NearbyPlaces_CollegeInfo" Association="aliquadbModel.Store.FK_NearbyPlaces_CollegeInfo">
+          <AssociationSet Name="FK_NearbyPlaces_CollegeInfo" Association="CollegeModel.Store.FK_NearbyPlaces_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfo" />
             <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
           </AssociationSet>
-          <AssociationSet Name="FK_NearbyPlaces_LocationTypes" Association="aliquadbModel.Store.FK_NearbyPlaces_LocationTypes">
+          <AssociationSet Name="FK_NearbyPlaces_LocationTypes" Association="CollegeModel.Store.FK_NearbyPlaces_LocationTypes">
             <End Role="LocationTypes" EntitySet="LocationTypes" />
             <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
-          </AssociationSet>
-          <AssociationSet Name="FK_Table_2_Table_1" Association="aliquadbModel.Store.FK_Table_2_Table_1">
-            <End Role="Table_1" EntitySet="Table_1" />
-            <End Role="Table_2" EntitySet="Table_2" />
-          </AssociationSet>
-          <AssociationSet Name="FK_tagtable_CollegeInfo" Association="aliquadbModel.Store.FK_tagtable_CollegeInfo">
-            <End Role="CollegeInfo" EntitySet="CollegeInfo" />
-            <End Role="tagtable" EntitySet="tagtable" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="EntityPhoneInfo">
@@ -63,34 +51,20 @@
         </EntityType>
         <EntityType Name="LocationTypes">
           <Key>
-            <PropertyRef Name="LType" />
+            <PropertyRef Name="LocationType" />
           </Key>
-          <Property Name="LType" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="LocationType" Type="varchar" Nullable="false" MaxLength="50" />
         </EntityType>
         <EntityType Name="NearbyPlaces">
           <Key>
             <PropertyRef Name="EntityId" />
-            <PropertyRef Name="Type" />
+            <PropertyRef Name="LocationType" />
             <PropertyRef Name="LocationName" />
           </Key>
           <Property Name="EntityId" Type="varchar" Nullable="false" MaxLength="15" />
-          <Property Name="Type" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="LocationType" Type="varchar" Nullable="false" MaxLength="50" />
           <Property Name="LocationName" Type="varchar" Nullable="false" MaxLength="50" />
           <Property Name="Distance" Type="varchar" MaxLength="10" />
-        </EntityType>
-        <EntityType Name="Table_1">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="varchar" Nullable="false" MaxLength="50" />
-          <Property Name="name" Type="varchar" MaxLength="50" />
-        </EntityType>
-        <EntityType Name="Table_2">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="varchar" Nullable="false" MaxLength="50" />
-          <Property Name="comment" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityType Name="CollegeInfo">
           <Key>
@@ -117,24 +91,9 @@
           <Property Name="NBAAccredited" Type="int" />
           <Property Name="AccreditionValidUpto" Type="int" />
         </EntityType>
-        <EntityType Name="Table">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="int" Nullable="false" />
-        </EntityType>
-        <EntityType Name="tagtable">
-          <Key>
-            <PropertyRef Name="TagIndex" />
-          </Key>
-          <Property Name="Id" Type="varchar" Nullable="false" MaxLength="15" />
-          <Property Name="TagValue" Type="varchar" Nullable="false" MaxLength="200" />
-          <Property Name="Tagname" Type="varchar" MaxLength="50" />
-          <Property Name="TagIndex" Type="varchar" Nullable="false" MaxLength="50" />
-        </EntityType>
         <Association Name="FK_DepartmentInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.Store.CollegeInfo" Multiplicity="1" />
-          <End Role="DepartmentInfo" Type="aliquadbModel.Store.DepartmentInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.Store.CollegeInfo" Multiplicity="1" />
+          <End Role="DepartmentInfo" Type="CollegeModel.Store.DepartmentInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -145,8 +104,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_EntityPhoneInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.Store.CollegeInfo" Multiplicity="1" />
-          <End Role="EntityPhoneInfo" Type="aliquadbModel.Store.EntityPhoneInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.Store.CollegeInfo" Multiplicity="1" />
+          <End Role="EntityPhoneInfo" Type="CollegeModel.Store.EntityPhoneInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -157,8 +116,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_EntityWebsiteInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.Store.CollegeInfo" Multiplicity="1" />
-          <End Role="EntityWebsiteInfo" Type="aliquadbModel.Store.EntityWebsiteInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.Store.CollegeInfo" Multiplicity="1" />
+          <End Role="EntityWebsiteInfo" Type="CollegeModel.Store.EntityWebsiteInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -169,8 +128,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_NearbyPlaces_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.Store.CollegeInfo" Multiplicity="1" />
-          <End Role="NearbyPlaces" Type="aliquadbModel.Store.NearbyPlaces" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.Store.CollegeInfo" Multiplicity="1" />
+          <End Role="NearbyPlaces" Type="CollegeModel.Store.NearbyPlaces" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -181,38 +140,14 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_NearbyPlaces_LocationTypes">
-          <End Role="LocationTypes" Type="aliquadbModel.Store.LocationTypes" Multiplicity="1" />
-          <End Role="NearbyPlaces" Type="aliquadbModel.Store.NearbyPlaces" Multiplicity="*" />
+          <End Role="LocationTypes" Type="CollegeModel.Store.LocationTypes" Multiplicity="1" />
+          <End Role="NearbyPlaces" Type="CollegeModel.Store.NearbyPlaces" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="LocationTypes">
-              <PropertyRef Name="LType" />
+              <PropertyRef Name="LocationType" />
             </Principal>
             <Dependent Role="NearbyPlaces">
-              <PropertyRef Name="Type" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_Table_2_Table_1">
-          <End Role="Table_1" Type="aliquadbModel.Store.Table_1" Multiplicity="1" />
-          <End Role="Table_2" Type="aliquadbModel.Store.Table_2" Multiplicity="0..1" />
-          <ReferentialConstraint>
-            <Principal Role="Table_1">
-              <PropertyRef Name="id" />
-            </Principal>
-            <Dependent Role="Table_2">
-              <PropertyRef Name="id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_tagtable_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.Store.CollegeInfo" Multiplicity="1" />
-          <End Role="tagtable" Type="aliquadbModel.Store.tagtable" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="CollegeInfo">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="tagtable">
-              <PropertyRef Name="Id" />
+              <PropertyRef Name="LocationType" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -220,45 +155,33 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="aliquadbModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="aliquadbEntities1" p1:LazyLoadingEnabled="true">
-          <EntitySet Name="EntityPhoneInfoes" EntityType="aliquadbModel.EntityPhoneInfo" />
-          <EntitySet Name="EntityWebsiteInfoes" EntityType="aliquadbModel.EntityWebsiteInfo" />
-          <EntitySet Name="LocationTypes" EntityType="aliquadbModel.LocationType" />
-          <EntitySet Name="NearbyPlaces" EntityType="aliquadbModel.NearbyPlace" />
-          <EntitySet Name="Table_1" EntityType="aliquadbModel.Table_1" />
-          <EntitySet Name="Table_2" EntityType="aliquadbModel.Table_2" />
-          <EntitySet Name="CollegeInfoes" EntityType="aliquadbModel.CollegeInfo" />
-          <EntitySet Name="DepartmentInfoes" EntityType="aliquadbModel.DepartmentInfo" />
-          <EntitySet Name="Tables" EntityType="aliquadbModel.Table" />
-          <EntitySet Name="tagtables" EntityType="aliquadbModel.tagtable" />
-          <AssociationSet Name="FK_EntityPhoneInfo_CollegeInfo" Association="aliquadbModel.FK_EntityPhoneInfo_CollegeInfo">
+      <Schema Namespace="CollegeModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="AliquaEntitiesContext" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="EntityPhoneInfoes" EntityType="CollegeModel.EntityPhoneInfo" />
+          <EntitySet Name="EntityWebsiteInfoes" EntityType="CollegeModel.EntityWebsiteInfo" />
+          <EntitySet Name="LocationTypes" EntityType="CollegeModel.LocationType" />
+          <EntitySet Name="NearbyPlaces" EntityType="CollegeModel.NearbyPlace" />
+          <EntitySet Name="CollegeInfoes" EntityType="CollegeModel.CollegeInfo" />
+          <EntitySet Name="DepartmentInfoes" EntityType="CollegeModel.DepartmentInfo" />
+          <AssociationSet Name="FK_EntityPhoneInfo_CollegeInfo" Association="CollegeModel.FK_EntityPhoneInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
             <End Role="EntityPhoneInfo" EntitySet="EntityPhoneInfoes" />
           </AssociationSet>
-          <AssociationSet Name="FK_EntityWebsiteInfo_CollegeInfo" Association="aliquadbModel.FK_EntityWebsiteInfo_CollegeInfo">
+          <AssociationSet Name="FK_EntityWebsiteInfo_CollegeInfo" Association="CollegeModel.FK_EntityWebsiteInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
             <End Role="EntityWebsiteInfo" EntitySet="EntityWebsiteInfoes" />
           </AssociationSet>
-          <AssociationSet Name="FK_NearbyPlaces_LocationTypes" Association="aliquadbModel.FK_NearbyPlaces_LocationTypes">
+          <AssociationSet Name="FK_NearbyPlaces_LocationTypes" Association="CollegeModel.FK_NearbyPlaces_LocationTypes">
             <End Role="LocationTypes" EntitySet="LocationTypes" />
             <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
           </AssociationSet>
-          <AssociationSet Name="FK_NearbyPlaces_CollegeInfo" Association="aliquadbModel.FK_NearbyPlaces_CollegeInfo">
+          <AssociationSet Name="FK_NearbyPlaces_CollegeInfo" Association="CollegeModel.FK_NearbyPlaces_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
             <End Role="NearbyPlaces" EntitySet="NearbyPlaces" />
           </AssociationSet>
-          <AssociationSet Name="FK_Table_2_Table_1" Association="aliquadbModel.FK_Table_2_Table_1">
-            <End Role="Table_1" EntitySet="Table_1" />
-            <End Role="Table_2" EntitySet="Table_2" />
-          </AssociationSet>
-          <AssociationSet Name="FK_DepartmentInfo_CollegeInfo" Association="aliquadbModel.FK_DepartmentInfo_CollegeInfo">
+          <AssociationSet Name="FK_DepartmentInfo_CollegeInfo" Association="CollegeModel.FK_DepartmentInfo_CollegeInfo">
             <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
             <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
-          </AssociationSet>
-          <AssociationSet Name="FK_tagtable_CollegeInfo" Association="aliquadbModel.FK_tagtable_CollegeInfo">
-            <End Role="CollegeInfo" EntitySet="CollegeInfoes" />
-            <End Role="tagtable" EntitySet="tagtables" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="EntityPhoneInfo">
@@ -268,7 +191,7 @@
           </Key>
           <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
           <Property Name="Phone" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="CollegeInfo" Relationship="aliquadbModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="EntityPhoneInfo" ToRole="CollegeInfo" />
+          <NavigationProperty Name="CollegeInfo" Relationship="CollegeModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="EntityPhoneInfo" ToRole="CollegeInfo" />
         </EntityType>
         <EntityType Name="EntityWebsiteInfo">
           <Key>
@@ -277,43 +200,27 @@
           </Key>
           <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
           <Property Name="Website" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="CollegeInfo" Relationship="aliquadbModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="EntityWebsiteInfo" ToRole="CollegeInfo" />
+          <NavigationProperty Name="CollegeInfo" Relationship="CollegeModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="EntityWebsiteInfo" ToRole="CollegeInfo" />
         </EntityType>
         <EntityType Name="LocationType">
           <Key>
-            <PropertyRef Name="LType" />
+            <PropertyRef Name="LocationType1" />
           </Key>
-          <Property Name="LType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="NearbyPlaces" Relationship="aliquadbModel.FK_NearbyPlaces_LocationTypes" FromRole="LocationTypes" ToRole="NearbyPlaces" />
+          <Property Name="LocationType1" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="NearbyPlaces" Relationship="CollegeModel.FK_NearbyPlaces_LocationTypes" FromRole="LocationTypes" ToRole="NearbyPlaces" />
         </EntityType>
         <EntityType Name="NearbyPlace">
           <Key>
             <PropertyRef Name="EntityId" />
-            <PropertyRef Name="Type" />
+            <PropertyRef Name="LocationType" />
             <PropertyRef Name="LocationName" />
           </Key>
           <Property Name="EntityId" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
-          <Property Name="Type" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="LocationType" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="LocationName" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="Distance" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="LocationType" Relationship="aliquadbModel.FK_NearbyPlaces_LocationTypes" FromRole="NearbyPlaces" ToRole="LocationTypes" />
-          <NavigationProperty Name="CollegeInfo" Relationship="aliquadbModel.FK_NearbyPlaces_CollegeInfo" FromRole="NearbyPlaces" ToRole="CollegeInfo" />
-        </EntityType>
-        <EntityType Name="Table_1">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-          <Property Name="name" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="Table_2" Relationship="aliquadbModel.FK_Table_2_Table_1" FromRole="Table_1" ToRole="Table_2" />
-        </EntityType>
-        <EntityType Name="Table_2">
-          <Key>
-            <PropertyRef Name="id" />
-          </Key>
-          <Property Name="id" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-          <Property Name="comment" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="Table_1" Relationship="aliquadbModel.FK_Table_2_Table_1" FromRole="Table_2" ToRole="Table_1" />
+          <NavigationProperty Name="LocationType1" Relationship="CollegeModel.FK_NearbyPlaces_LocationTypes" FromRole="NearbyPlaces" ToRole="LocationTypes" />
+          <NavigationProperty Name="CollegeInfo" Relationship="CollegeModel.FK_NearbyPlaces_CollegeInfo" FromRole="NearbyPlaces" ToRole="CollegeInfo" />
         </EntityType>
         <EntityType Name="CollegeInfo">
           <Key>
@@ -326,11 +233,10 @@
           <Property Name="District" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="BankAccount" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
           <Property Name="BankName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="EntityPhoneInfoes" Relationship="aliquadbModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityPhoneInfo" />
-          <NavigationProperty Name="EntityWebsiteInfoes" Relationship="aliquadbModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityWebsiteInfo" />
-          <NavigationProperty Name="NearbyPlaces" Relationship="aliquadbModel.FK_NearbyPlaces_CollegeInfo" FromRole="CollegeInfo" ToRole="NearbyPlaces" />
-          <NavigationProperty Name="DepartmentInfoes" Relationship="aliquadbModel.FK_DepartmentInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="DepartmentInfo" />
-          <NavigationProperty Name="tagtables" Relationship="aliquadbModel.FK_tagtable_CollegeInfo" FromRole="CollegeInfo" ToRole="tagtable" />
+          <NavigationProperty Name="EntityPhoneInfoes" Relationship="CollegeModel.FK_EntityPhoneInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityPhoneInfo" />
+          <NavigationProperty Name="EntityWebsiteInfoes" Relationship="CollegeModel.FK_EntityWebsiteInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="EntityWebsiteInfo" />
+          <NavigationProperty Name="NearbyPlaces" Relationship="CollegeModel.FK_NearbyPlaces_CollegeInfo" FromRole="CollegeInfo" ToRole="NearbyPlaces" />
+          <NavigationProperty Name="DepartmentInfoes" Relationship="CollegeModel.FK_DepartmentInfo_CollegeInfo" FromRole="CollegeInfo" ToRole="DepartmentInfo" />
         </EntityType>
         <EntityType Name="DepartmentInfo">
           <Key>
@@ -344,27 +250,11 @@
           <Property Name="YearofStartingCourse" Type="Int32" />
           <Property Name="NBAAccredited" Type="Int32" />
           <Property Name="AccreditionValidUpto" Type="Int32" />
-          <NavigationProperty Name="CollegeInfo" Relationship="aliquadbModel.FK_DepartmentInfo_CollegeInfo" FromRole="DepartmentInfo" ToRole="CollegeInfo" />
-        </EntityType>
-        <EntityType Name="Table">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" />
-        </EntityType>
-        <EntityType Name="tagtable">
-          <Key>
-            <PropertyRef Name="TagIndex" />
-          </Key>
-          <Property Name="Id" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
-          <Property Name="TagValue" Type="String" Nullable="false" MaxLength="200" Unicode="false" FixedLength="false" />
-          <Property Name="Tagname" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
-          <Property Name="TagIndex" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
-          <NavigationProperty Name="CollegeInfo" Relationship="aliquadbModel.FK_tagtable_CollegeInfo" FromRole="tagtable" ToRole="CollegeInfo" />
+          <NavigationProperty Name="CollegeInfo" Relationship="CollegeModel.FK_DepartmentInfo_CollegeInfo" FromRole="DepartmentInfo" ToRole="CollegeInfo" />
         </EntityType>
         <Association Name="FK_EntityPhoneInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.CollegeInfo" Multiplicity="1" />
-          <End Role="EntityPhoneInfo" Type="aliquadbModel.EntityPhoneInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.CollegeInfo" Multiplicity="1" />
+          <End Role="EntityPhoneInfo" Type="CollegeModel.EntityPhoneInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -375,8 +265,8 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_EntityWebsiteInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.CollegeInfo" Multiplicity="1" />
-          <End Role="EntityWebsiteInfo" Type="aliquadbModel.EntityWebsiteInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.CollegeInfo" Multiplicity="1" />
+          <End Role="EntityWebsiteInfo" Type="CollegeModel.EntityWebsiteInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -387,20 +277,20 @@
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_NearbyPlaces_LocationTypes">
-          <End Role="LocationTypes" Type="aliquadbModel.LocationType" Multiplicity="1" />
-          <End Role="NearbyPlaces" Type="aliquadbModel.NearbyPlace" Multiplicity="*" />
+          <End Role="LocationTypes" Type="CollegeModel.LocationType" Multiplicity="1" />
+          <End Role="NearbyPlaces" Type="CollegeModel.NearbyPlace" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="LocationTypes">
-              <PropertyRef Name="LType" />
+              <PropertyRef Name="LocationType1" />
             </Principal>
             <Dependent Role="NearbyPlaces">
-              <PropertyRef Name="Type" />
+              <PropertyRef Name="LocationType" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
         <Association Name="FK_NearbyPlaces_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.CollegeInfo" Multiplicity="1" />
-          <End Role="NearbyPlaces" Type="aliquadbModel.NearbyPlace" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.CollegeInfo" Multiplicity="1" />
+          <End Role="NearbyPlaces" Type="CollegeModel.NearbyPlace" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -410,21 +300,9 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_Table_2_Table_1">
-          <End Role="Table_1" Type="aliquadbModel.Table_1" Multiplicity="1" />
-          <End Role="Table_2" Type="aliquadbModel.Table_2" Multiplicity="0..1" />
-          <ReferentialConstraint>
-            <Principal Role="Table_1">
-              <PropertyRef Name="id" />
-            </Principal>
-            <Dependent Role="Table_2">
-              <PropertyRef Name="id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_DepartmentInfo_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.CollegeInfo" Multiplicity="1" />
-          <End Role="DepartmentInfo" Type="aliquadbModel.DepartmentInfo" Multiplicity="*" />
+          <End Role="CollegeInfo" Type="CollegeModel.CollegeInfo" Multiplicity="1" />
+          <End Role="DepartmentInfo" Type="CollegeModel.DepartmentInfo" Multiplicity="*" />
           <ReferentialConstraint>
             <Principal Role="CollegeInfo">
               <PropertyRef Name="Id" />
@@ -434,26 +312,14 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_tagtable_CollegeInfo">
-          <End Role="CollegeInfo" Type="aliquadbModel.CollegeInfo" Multiplicity="1" />
-          <End Role="tagtable" Type="aliquadbModel.tagtable" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="CollegeInfo">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="tagtable">
-              <PropertyRef Name="Id" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="aliquadbModelStoreContainer" CdmEntityContainer="aliquadbEntities1">
+        <EntityContainerMapping StorageEntityContainer="CollegeModelStoreContainer" CdmEntityContainer="AliquaEntitiesContext">
           <EntitySetMapping Name="EntityPhoneInfoes">
-            <EntityTypeMapping TypeName="aliquadbModel.EntityPhoneInfo">
+            <EntityTypeMapping TypeName="CollegeModel.EntityPhoneInfo">
               <MappingFragment StoreEntitySet="EntityPhoneInfo">
                 <ScalarProperty Name="EntityId" ColumnName="EntityId" />
                 <ScalarProperty Name="Phone" ColumnName="Phone" />
@@ -461,7 +327,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EntityWebsiteInfoes">
-            <EntityTypeMapping TypeName="aliquadbModel.EntityWebsiteInfo">
+            <EntityTypeMapping TypeName="CollegeModel.EntityWebsiteInfo">
               <MappingFragment StoreEntitySet="EntityWebsiteInfo">
                 <ScalarProperty Name="EntityId" ColumnName="EntityId" />
                 <ScalarProperty Name="Website" ColumnName="Website" />
@@ -469,40 +335,24 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="LocationTypes">
-            <EntityTypeMapping TypeName="aliquadbModel.LocationType">
+            <EntityTypeMapping TypeName="CollegeModel.LocationType">
               <MappingFragment StoreEntitySet="LocationTypes">
-                <ScalarProperty Name="LType" ColumnName="LType" />
+                <ScalarProperty Name="LocationType1" ColumnName="LocationType" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="NearbyPlaces">
-            <EntityTypeMapping TypeName="aliquadbModel.NearbyPlace">
+            <EntityTypeMapping TypeName="CollegeModel.NearbyPlace">
               <MappingFragment StoreEntitySet="NearbyPlaces">
                 <ScalarProperty Name="EntityId" ColumnName="EntityId" />
-                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="LocationType" ColumnName="LocationType" />
                 <ScalarProperty Name="LocationName" ColumnName="LocationName" />
                 <ScalarProperty Name="Distance" ColumnName="Distance" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Table_1">
-            <EntityTypeMapping TypeName="aliquadbModel.Table_1">
-              <MappingFragment StoreEntitySet="Table_1">
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="name" ColumnName="name" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Table_2">
-            <EntityTypeMapping TypeName="aliquadbModel.Table_2">
-              <MappingFragment StoreEntitySet="Table_2">
-                <ScalarProperty Name="id" ColumnName="id" />
-                <ScalarProperty Name="comment" ColumnName="comment" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="CollegeInfoes">
-            <EntityTypeMapping TypeName="aliquadbModel.CollegeInfo">
+            <EntityTypeMapping TypeName="CollegeModel.CollegeInfo">
               <MappingFragment StoreEntitySet="CollegeInfo">
                 <ScalarProperty Name="Id" ColumnName="Id" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -515,7 +365,7 @@
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="DepartmentInfoes">
-            <EntityTypeMapping TypeName="aliquadbModel.DepartmentInfo">
+            <EntityTypeMapping TypeName="CollegeModel.DepartmentInfo">
               <MappingFragment StoreEntitySet="DepartmentInfo">
                 <ScalarProperty Name="BranchName" ColumnName="BranchName" />
                 <ScalarProperty Name="CollegeId" ColumnName="CollegeId" />
@@ -524,23 +374,6 @@
                 <ScalarProperty Name="YearofStartingCourse" ColumnName="YearofStartingCourse" />
                 <ScalarProperty Name="NBAAccredited" ColumnName="NBAAccredited" />
                 <ScalarProperty Name="AccreditionValidUpto" ColumnName="AccreditionValidUpto" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Tables">
-            <EntityTypeMapping TypeName="aliquadbModel.Table">
-              <MappingFragment StoreEntitySet="Table">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="tagtables">
-            <EntityTypeMapping TypeName="aliquadbModel.tagtable">
-              <MappingFragment StoreEntitySet="tagtable">
-                <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="TagValue" ColumnName="TagValue" />
-                <ScalarProperty Name="Tagname" ColumnName="Tagname" />
-                <ScalarProperty Name="TagIndex" ColumnName="TagIndex" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
