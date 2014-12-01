@@ -13,10 +13,10 @@ namespace WebApplication1
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class AliquaEntitiesContext : DbContext
+    public partial class aliquadbEntities1 : DbContext
     {
-        public AliquaEntitiesContext()
-            : base("name=AliquaEntitiesContext")
+        public aliquadbEntities1()
+            : base("name=aliquadbEntities1")
         {
         }
     
@@ -29,7 +29,11 @@ namespace WebApplication1
         public DbSet<EntityWebsiteInfo> EntityWebsiteInfoes { get; set; }
         public DbSet<LocationType> LocationTypes { get; set; }
         public DbSet<NearbyPlace> NearbyPlaces { get; set; }
+        public DbSet<Table_1> Table_1 { get; set; }
+        public DbSet<Table_2> Table_2 { get; set; }
         public DbSet<CollegeInfo> CollegeInfoes { get; set; }
         public DbSet<DepartmentInfo> DepartmentInfoes { get; set; }
+        public DbSet<Table> Tables { get; set; }
+        public DbSet<tagtable> tagtables { get; set; }
     }
 }
